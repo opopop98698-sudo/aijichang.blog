@@ -45,6 +45,37 @@ provenance: self_measured
 
 ---
 
+## 📚 AI 专区 16 大核心三级集群深度旗舰长文索引 (SILO 专题集群)
+
+本专区已为全站最受关注的 16 个 AI 业务集群打造了每篇 6,000+ 字的独立深度技术长文。涵盖底层协议拆解、真实抓包排障、客户端精准配置与在售专线套餐选型：
+
+* 🤖 **A01 ChatGPT 专区**：
+  * [A01-A 网页与移动端任务深度推导：长文本断流与网络条件全景指南](/ai/chatgpt-web-mobile-tasks/)
+  * [A01-B 功能需求与选购判断：实时语音、文件分析、代码解释器与套餐匹配](/ai/chatgpt-features-selection/)
+* 🎭 **A02 Claude 专区**：
+  * [A02-A Claude 3.5 Sonnet 专用机场选购：高风控阻断机理与原生干净出口](/ai/claude-usage-scenarios/)
+  * [A02-B Claude 深度测试边界与节点排查：大文件传输与 Claude Code 终端联动](/ai/claude-test-boundaries/)
+* 💎 **A03 Gemini 专区**：
+  * [A03-A Gemini 机场选择指南：区分 Web 端、AI Studio 与 Gemini Live 网络门槛](/ai/gemini-products-accounts/)
+  * [A03-B Gemini 任务能力与多出口选择：Google 账号风控与 200万 Token 缓存](/ai/gemini-capabilities-selection/)
+* ⚡ **A04 AI API 专区**：
+  * [A04-A AI API 专用网络与网页代理分工：OpenAI、Anthropic 接口架构设计](/ai/ai-api-vs-web/)
+  * [A04-B 开发者 AI API 选型实战：流式 SSE 响应、超时重试与自建专线对比](/ai/ai-api-developer-requirements/)
+* 💻 **A05 AI 编程助手专区**：
+  * [A05-A AI 编程助手网络方案：Cursor、GitHub Copilot 与本地代理调优](/ai/ai-coding-workflows/)
+  * [A05-B 远程开发与团队 AI 编程网络：Docker、WSL2 与云端环境出口治理](/ai/ai-coding-environments/)
+* 🎨 **A06 多模态与实时任务专区**：
+  * [A06-A 多模态 AI 任务网络指南：实时语音、高分辨率生图与视频生成](/ai/multimodal-realtime-tasks/)
+  * [A06-B AI 网络指标的真实意义：辨别“模型生成延迟”与“网络丢包重传”](/ai/multimodal-network-metrics/)
+* 🌐 **A07 多 AI 平台兼容专区**：
+  * [A07-A 跨 AI 平台全兼容机场矩阵：同时主力运行 ChatGPT、Claude 与 Gemini](/ai/multi-platform-matrix/)
+  * [A07-B 多 AI 工具主力节点策略：单一优质专线 vs 按任务多出口动态分流](/ai/multi-platform-node-strategy/)
+* 🛡️ **A08 持续办公与出口治理专区**：
+  * [A08-A 持续 AI 办公与长连接稳定性：会话中途断线自愈与专线 SLA 实测](/ai/continuous-tasks-long-connections/)
+  * [A08-B 机场出口动态漂移与 AI 兼容性维护：节点被风控污染后的识别与备用机制](/ai/node-maintenance-evolution/)
+
+---
+
 ## A01 ChatGPT 机场：从首页访问到长文本生成的证据链
 
 ChatGPT 是全球用户基数最大的大语言模型服务，但其前端与后端链路的安全风控机制极其复杂。

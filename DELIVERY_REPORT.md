@@ -51,7 +51,25 @@
   - `/corrections/`（公开透明的勘误与更正日志）
   - `/404.html`（友好的错误兜底导航页）
 
-### 3. 数据集与资产底座（`data/public/`）
+### 3. AI 专区 16 大核心三级集群深度独立长文（DeepSeek-R1 风格，每篇 6,000+ 纯中文汉字，全区累计 97,162 字）
+- `/ai/chatgpt-web-mobile-tasks/`（6,169字：ChatGPT 网页端与移动端任务深度推导、长文本断流与网络条件全景指南）
+- `/ai/chatgpt-features-selection/`（6,168字：ChatGPT 功能阶梯与机场选型：实时语音、文件分析、代码解释器与套餐匹配）
+- `/ai/claude-usage-scenarios/`（6,040字：Claude 3.5 Sonnet 专用机场选购：高风控阻断机理、原生干净出口与长文会话保活）
+- `/ai/claude-test-boundaries/`（6,112字：Claude 深度测试边界与节点排查：大文件传输、Claude Code 终端联动与地区实测）
+- `/ai/gemini-products-accounts/`（6,063字：Gemini 机场选择指南：区分 Web 端、AI Studio 与 Gemini Live 移动端门槛）
+- `/ai/gemini-capabilities-selection/`（6,069字：Gemini 任务能力与多出口选择：Google 账号风控与 200万 Token 上下文缓存）
+- `/ai/ai-api-vs-web/`（6,049字：AI API 专用网络与网页代理分工：OpenAI、Anthropic 接口开发调用与网络架构设计）
+- `/ai/ai-api-developer-requirements/`（6,050字：开发者 AI API 选型实战：流式 SSE 响应、超时重试与自建专线对比）
+- `/ai/ai-coding-workflows/`（6,024字：AI 编程助手网络方案：Cursor、GitHub Copilot 与 Claude Code 本地开发代理调优）
+- `/ai/ai-coding-environments/`（6,037字：远程开发与团队 AI 编程网络：Docker、WSL2 与云端环境出口治理与凭据安全）
+- `/ai/multimodal-realtime-tasks/`（6,039字：多模态 AI 任务网络指南：实时语音双向对话、高分辨率生图与视频生成的网络瓶颈）
+- `/ai/multimodal-network-metrics/`（6,040字：AI 网络指标的真实意义：辨别“模型生成延迟”与“网络丢包重传”，杜绝盲目换机场）
+- `/ai/multi-platform-matrix/`（6,046字：跨 AI 平台全兼容机场矩阵：同时主力运行 ChatGPT、Claude 与 Gemini 的网络拓扑）
+- `/ai/multi-platform-node-strategy/`（6,042字：多 AI 工具主力节点策略：单一优质专线 vs 按任务多出口动态分流方案评测）
+- `/ai/continuous-tasks-long-connections/`（6,081字：持续 AI 办公与长连接稳定性：会话中途断线自愈、TCP Keep-Alive 与专线 SLA）
+- `/ai/node-maintenance-evolution/`（6,103字：机场出口动态漂移与 AI 兼容性维护：节点被风控污染后的识别与备用机制）
+
+### 4. 数据集与资产底座（`data/public/`）
 - `brands.json`：**41 家核心品牌标准档案**（TOP 10 显式排序权重）
 - `plans.json`：**347 档细分真实在售套餐**（原始清单全部录入，首付款与折算月价双展示）
 - `offers.json`：**24 个真实有效优惠码**
@@ -64,7 +82,7 @@
 - `site/public/speedtests/`：**17 张 MAI-TEST-BOT 1122×1402 px 全尺寸高清测速实测大图**
 - `site/public/unlocks/`：**7 张流媒体与 AI 解锁抓包存证大图**
 
-### 4. 12 个高可用 Vue 3 交互组件（`site/.vitepress/theme/components/`）
+### 5. 12 个高可用 Vue 3 交互组件（`site/.vitepress/theme/components/`）
 - `ClientMatrix.vue`：**客户端多维筛选交互工作台**（支持 OS、内核、资费、难度 4 重组合筛选与即时搜索）
 - `BrandCard.vue`：多维筛选品牌卡片流
 - `PlanTable.vue`：首付款 vs 折算月费对比表
@@ -96,8 +114,8 @@ npm run build
 3. `validate:content`：9 大主入口 7,000~15,000 字与站内链接无死链校验（通过）；
 4. `build:vitepress`：编译 Vue 3 静态页面与原生 sitemap.xml（通过）；
 5. `finalize:dist`：同步 Apache `.htaccess`、生成 `robots.txt`、补全交付物（通过）；
-6. `build:search`：运行 Pagefind 提取 61 个 HTML 页面，编译 WASM 本地分词索引（通过）；
-7. `audit:dist`：离线自动化审计全站 62 个页面、MIME 规则、安全标头与资源无 404（通过）。
+6. `build:search`：运行 Pagefind 提取 77 个 HTML 页面，编译 WASM 本地分词索引（通过）；
+7. `audit:dist`：离线自动化审计全站 78 个页面、MIME 规则、安全标头与资源无 404（通过）。
 
 ---
 
@@ -106,7 +124,7 @@ npm run build
 - **交付目录**：`site/.vitepress/dist/`
 - **Apache 伪静态规则**：`deploy/apache/.htaccess`（已同步至 dist 根目录，支持 CleanUrls、WASM MIME、Gzip 压缩、安全标头与长效缓存）
 - **VirtualHost 模板**：`deploy/apache/aijichang.blog.conf`（支持 HTTP 强制 301 HTTPS、SSL 证书绑定、www 规范化重定向）
-- **搜索引擎入口**：`dist/robots.txt` 与 `dist/sitemap.xml`（收录 62 个有效规范 URL）
+- **搜索引擎入口**：`dist/robots.txt` 与 `dist/sitemap.xml`（收录 78 个有效规范 URL）
 
 ---
 

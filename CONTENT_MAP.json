@@ -631,9 +631,9 @@
     "clusterId": "A01-A",
     "clusterName": "网页与移动端任务",
     "title": "ChatGPT机场怎么选？首页访问、登录和完成对话分别需要什么证据？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a01-a1",
+    "targetRoute": "/ai/chatgpt-web-mobile-tasks/",
     "primaryIntent": "ChatGPT机场 - 网页与移动端任务 - 候选规划选题"
   },
   {
@@ -644,9 +644,9 @@
     "clusterId": "A01-A",
     "clusterName": "网页与移动端任务",
     "title": "ChatGPT网页和官方移动应用都要使用，购买机场时怎样核对兼容范围？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a01-a2",
+    "targetRoute": "/ai/chatgpt-web-mobile-tasks/",
     "primaryIntent": "ChatGPT机场 - 网页与移动端任务 - 候选规划选题"
   },
   {
@@ -657,9 +657,9 @@
     "clusterId": "A01-A",
     "clusterName": "网页与移动端任务",
     "title": "机场宣称支持ChatGPT，是否包含文件上传和长答案输出？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a01-a3",
+    "targetRoute": "/ai/chatgpt-web-mobile-tasks/",
     "primaryIntent": "ChatGPT机场 - 网页与移动端任务 - 候选规划选题"
   },
   {
@@ -670,9 +670,9 @@
     "clusterId": "A01-B",
     "clusterName": "功能需求与选购判断",
     "title": "只用文字对话与使用语音功能，ChatGPT机场的验证任务有何不同？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a01-b1",
+    "targetRoute": "/ai/chatgpt-features-selection/",
     "primaryIntent": "ChatGPT机场 - 功能需求与选购判断 - 候选规划选题"
   },
   {
@@ -683,9 +683,9 @@
     "clusterId": "A01-B",
     "clusterName": "功能需求与选购判断",
     "title": "ChatGPT套餐权限与机场网络服务分别负责什么？避免把两种付费混为一谈",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a01-b2",
+    "targetRoute": "/ai/chatgpt-features-selection/",
     "primaryIntent": "ChatGPT机场 - 功能需求与选购判断 - 候选规划选题"
   },
   {
@@ -696,9 +696,9 @@
     "clusterId": "A01-B",
     "clusterName": "功能需求与选购判断",
     "title": "比较两个ChatGPT机场时，怎样结合任务完成记录与连接稳定性？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a01-b3",
+    "targetRoute": "/ai/chatgpt-features-selection/",
     "primaryIntent": "ChatGPT机场 - 功能需求与选购判断 - 候选规划选题"
   },
   {
@@ -709,9 +709,9 @@
     "clusterId": "A02-A",
     "clusterName": "Claude使用场景",
     "title": "Claude机场怎么选？长文阅读、文件处理与普通对话的需求差异",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a02-a1",
+    "targetRoute": "/ai/claude-usage-scenarios/",
     "primaryIntent": "Claude机场 - Claude使用场景 - 候选规划选题"
   },
   {
@@ -722,9 +722,9 @@
     "clusterId": "A02-A",
     "clusterName": "Claude使用场景",
     "title": "机场可打开Claude网页但没有任务记录，选购结论应保留哪些限制？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a02-a2",
+    "targetRoute": "/ai/claude-usage-scenarios/",
     "primaryIntent": "Claude机场 - Claude使用场景 - 候选规划选题"
   },
   {
@@ -735,9 +735,9 @@
     "clusterId": "A02-A",
     "clusterName": "Claude使用场景",
     "title": "Claude网页与Claude Code都要使用，为什么不能只看一项“支持Claude”？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a02-a3",
+    "targetRoute": "/ai/claude-usage-scenarios/",
     "primaryIntent": "Claude机场 - Claude使用场景 - 候选规划选题"
   },
   {
@@ -748,9 +748,9 @@
     "clusterId": "A02-B",
     "clusterName": "资料与测试边界",
     "title": "处理大文件的Claude用户，应怎样核对机场上传和持续连接能力？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a02-b1",
+    "targetRoute": "/ai/claude-test-boundaries/",
     "primaryIntent": "Claude机场 - 资料与测试边界 - 候选规划选题"
   },
   {
@@ -761,9 +761,9 @@
     "clusterId": "A02-B",
     "clusterName": "资料与测试边界",
     "title": "不同地区节点的Claude记录如何阅读？官方资格与实测结果分别查看",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a02-b2",
+    "targetRoute": "/ai/claude-test-boundaries/",
     "primaryIntent": "Claude机场 - 资料与测试边界 - 候选规划选题"
   },
   {
@@ -774,9 +774,9 @@
     "clusterId": "A02-B",
     "clusterName": "资料与测试边界",
     "title": "机场宣传Claude长期稳定可用，购买前需要核对哪些时间和版本条件？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a02-b3",
+    "targetRoute": "/ai/claude-test-boundaries/",
     "primaryIntent": "Claude机场 - 资料与测试边界 - 候选规划选题"
   },
   {
@@ -787,9 +787,9 @@
     "clusterId": "A03-A",
     "clusterName": "产品范围与账户条件",
     "title": "Gemini机场怎么选？先区分Gemini应用、AI Studio和Gemini API",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a03-a1",
+    "targetRoute": "/ai/gemini-products-accounts/",
     "primaryIntent": "Gemini机场 - 产品范围与账户条件 - 候选规划选题"
   },
   {
@@ -800,9 +800,9 @@
     "clusterId": "A03-A",
     "clusterName": "产品范围与账户条件",
     "title": "Gemini个人账户与工作学校账户的使用条件，怎样影响网络问题判断？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a03-a2",
+    "targetRoute": "/ai/gemini-products-accounts/",
     "primaryIntent": "Gemini机场 - 产品范围与账户条件 - 候选规划选题"
   },
   {
@@ -813,9 +813,9 @@
     "clusterId": "A03-A",
     "clusterName": "产品范围与账户条件",
     "title": "手机Gemini与浏览器Gemini的测试结果，能否互相代表？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a03-a3",
+    "targetRoute": "/ai/gemini-products-accounts/",
     "primaryIntent": "Gemini机场 - 产品范围与账户条件 - 候选规划选题"
   },
   {
@@ -826,9 +826,9 @@
     "clusterId": "A03-B",
     "clusterName": "任务能力与选择",
     "title": "需要Gemini语音或文件处理时，机场体验应该增加哪些任务？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a03-b1",
+    "targetRoute": "/ai/gemini-capabilities-selection/",
     "primaryIntent": "Gemini机场 - 任务能力与选择 - 候选规划选题"
   },
   {
@@ -839,9 +839,9 @@
     "clusterId": "A03-B",
     "clusterName": "任务能力与选择",
     "title": "Gemini网页可访问但部分功能不可用，怎样比较机场而不忽略账户条件？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a03-b2",
+    "targetRoute": "/ai/gemini-capabilities-selection/",
     "primaryIntent": "Gemini机场 - 任务能力与选择 - 候选规划选题"
   },
   {
@@ -852,9 +852,9 @@
     "clusterId": "A03-B",
     "clusterName": "任务能力与选择",
     "title": "Gemini节点候选怎样整理？平台支持范围、出口识别和测试时间缺一不可",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a03-b3",
+    "targetRoute": "/ai/gemini-capabilities-selection/",
     "primaryIntent": "Gemini机场 - 任务能力与选择 - 候选规划选题"
   },
   {
@@ -865,9 +865,9 @@
     "clusterId": "A04-A",
     "clusterName": "API与网页分工",
     "title": "AI API机场怎么选？网页可用与开发接口可用为什么要分开验证？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a04-a1",
+    "targetRoute": "/ai/ai-api-vs-web/",
     "primaryIntent": "AI API网络方案 - API与网页分工 - 候选规划选题"
   },
   {
@@ -878,9 +878,9 @@
     "clusterId": "A04-A",
     "clusterName": "API与网页分工",
     "title": "OpenAI、Claude与Gemini API同时使用，如何建立分产品的网络需求表？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a04-a2",
+    "targetRoute": "/ai/ai-api-vs-web/",
     "primaryIntent": "AI API网络方案 - API与网页分工 - 候选规划选题"
   },
   {
@@ -891,9 +891,9 @@
     "clusterId": "A04-A",
     "clusterName": "API与网页分工",
     "title": "官方API与第三方中转服务有什么区别？机场推荐页应该如何标注？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a04-a3",
+    "targetRoute": "/ai/ai-api-vs-web/",
     "primaryIntent": "AI API网络方案 - API与网页分工 - 候选规划选题"
   },
   {
@@ -904,9 +904,9 @@
     "clusterId": "A04-B",
     "clusterName": "开发调用的选购条件",
     "title": "开发调用选择机场时，超时、流式响应和上传任务应该怎样比较？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a04-b1",
+    "targetRoute": "/ai/ai-api-developer-requirements/",
     "primaryIntent": "AI API网络方案 - 开发调用的选购条件 - 候选规划选题"
   },
   {
@@ -917,9 +917,9 @@
     "clusterId": "A04-B",
     "clusterName": "开发调用的选购条件",
     "title": "服务器调用与本地电脑调用走不同出口时，机场测试应该如何对应？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a04-b2",
+    "targetRoute": "/ai/ai-api-developer-requirements/",
     "primaryIntent": "AI API网络方案 - 开发调用的选购条件 - 候选规划选题"
   },
   {
@@ -930,9 +930,9 @@
     "clusterId": "A04-B",
     "clusterName": "开发调用的选购条件",
     "title": "AI API额度、计费和网络错误怎样分开？避免因连接问题反复购买套餐",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a04-b3",
+    "targetRoute": "/ai/ai-api-developer-requirements/",
     "primaryIntent": "AI API网络方案 - 开发调用的选购条件 - 候选规划选题"
   },
   {
@@ -943,9 +943,9 @@
     "clusterId": "A05-A",
     "clusterName": "编程工作流",
     "title": "AI编程助手选择机场时，需要区分IDE、终端和浏览器哪些连接？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a05-a1",
+    "targetRoute": "/ai/ai-coding-workflows/",
     "primaryIntent": "AI编程工具网络 - 编程工作流 - 候选规划选题"
   },
   {
@@ -956,9 +956,9 @@
     "clusterId": "A05-A",
     "clusterName": "编程工作流",
     "title": "Claude Code与Claude网页使用同一网络，为什么仍需分别验证工作流？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a05-a2",
+    "targetRoute": "/ai/ai-coding-workflows/",
     "primaryIntent": "AI编程工具网络 - 编程工作流 - 候选规划选题"
   },
   {
@@ -969,9 +969,9 @@
     "clusterId": "A05-A",
     "clusterName": "编程工作流",
     "title": "Codex相关工具的产品权限与网络连通性，购买机场时如何分开核对？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a05-a3",
+    "targetRoute": "/ai/ai-coding-workflows/",
     "primaryIntent": "AI编程工具网络 - 编程工作流 - 候选规划选题"
   },
   {
@@ -982,9 +982,9 @@
     "clusterId": "A05-B",
     "clusterName": "运行环境与权限",
     "title": "远程开发环境与本地IDE使用机场，应该怎样确认真正的请求出口？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a05-b1",
+    "targetRoute": "/ai/ai-coding-environments/",
     "primaryIntent": "AI编程工具网络 - 运行环境与权限 - 候选规划选题"
   },
   {
@@ -995,9 +995,9 @@
     "clusterId": "A05-B",
     "clusterName": "运行环境与权限",
     "title": "AI编程工具无法连接时，系统代理、环境变量和工具配置如何分工？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a05-b2",
+    "targetRoute": "/ai/ai-coding-environments/",
     "primaryIntent": "AI编程工具网络 - 运行环境与权限 - 候选规划选题"
   },
   {
@@ -1008,9 +1008,9 @@
     "clusterId": "A05-B",
     "clusterName": "运行环境与权限",
     "title": "团队开发电脑使用代理服务前，应该怎样核对企业网络与凭据管理要求？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a05-b3",
+    "targetRoute": "/ai/ai-coding-environments/",
     "primaryIntent": "AI编程工具网络 - 运行环境与权限 - 候选规划选题"
   },
   {
@@ -1021,9 +1021,9 @@
     "clusterId": "A06-A",
     "clusterName": "语音图片视频任务",
     "title": "AI语音任务选择机场时，为什么不能只比较文件下载峰值？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a06-a1",
+    "targetRoute": "/ai/multimodal-realtime-tasks/",
     "primaryIntent": "多模态与实时任务 - 语音图片视频任务 - 候选规划选题"
   },
   {
@@ -1034,9 +1034,9 @@
     "clusterId": "A06-A",
     "clusterName": "语音图片视频任务",
     "title": "上传图片和生成视频的AI工作流，机场流量与等待时间怎样分别记录？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a06-a2",
+    "targetRoute": "/ai/multimodal-realtime-tasks/",
     "primaryIntent": "多模态与实时任务 - 语音图片视频任务 - 候选规划选题"
   },
   {
@@ -1047,9 +1047,9 @@
     "clusterId": "A06-A",
     "clusterName": "语音图片视频任务",
     "title": "AI实时对话与普通网页请求的体验差异，购买前如何设计验证？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a06-a3",
+    "targetRoute": "/ai/multimodal-realtime-tasks/",
     "primaryIntent": "多模态与实时任务 - 语音图片视频任务 - 候选规划选题"
   },
   {
@@ -1060,9 +1060,9 @@
     "clusterId": "A06-B",
     "clusterName": "网络指标的实际意义",
     "title": "AI输出速度慢就一定是机场慢吗？网络耗时与模型处理时间的区别",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a06-b1",
+    "targetRoute": "/ai/multimodal-network-metrics/",
     "primaryIntent": "多模态与实时任务 - 网络指标的实际意义 - 候选规划选题"
   },
   {
@@ -1073,9 +1073,9 @@
     "clusterId": "A06-B",
     "clusterName": "网络指标的实际意义",
     "title": "语音时断时续但文字对话正常，怎样判断需要验证哪些网络条件？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a06-b2",
+    "targetRoute": "/ai/multimodal-network-metrics/",
     "primaryIntent": "多模态与实时任务 - 网络指标的实际意义 - 候选规划选题"
   },
   {
@@ -1086,9 +1086,9 @@
     "clusterId": "A06-B",
     "clusterName": "网络指标的实际意义",
     "title": "长时间AI生成任务结束后下载失败，机场选购时如何考虑完整任务链？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a06-b3",
+    "targetRoute": "/ai/multimodal-network-metrics/",
     "primaryIntent": "多模态与实时任务 - 网络指标的实际意义 - 候选规划选题"
   },
   {
@@ -1099,9 +1099,9 @@
     "clusterId": "A07-A",
     "clusterName": "跨平台矩阵",
     "title": "多AI平台机场推荐表应该有哪些字段？平台、入口、任务与日期说明",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a07-a1",
+    "targetRoute": "/ai/multi-platform-matrix/",
     "primaryIntent": "多AI平台兼容比较 - 跨平台矩阵 - 候选规划选题"
   },
   {
@@ -1112,9 +1112,9 @@
     "clusterId": "A07-A",
     "clusterName": "跨平台矩阵",
     "title": "ChatGPT可用不代表Claude和Gemini可用，怎样阅读分平台兼容矩阵？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a07-a2",
+    "targetRoute": "/ai/multi-platform-matrix/",
     "primaryIntent": "多AI平台兼容比较 - 跨平台矩阵 - 候选规划选题"
   },
   {
@@ -1125,9 +1125,9 @@
     "clusterId": "A07-A",
     "clusterName": "跨平台矩阵",
     "title": "机场声称“AI全解锁”时，哪些产品和功能边界必须写清？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a07-a3",
+    "targetRoute": "/ai/multi-platform-matrix/",
     "primaryIntent": "多AI平台兼容比较 - 跨平台矩阵 - 候选规划选题"
   },
   {
@@ -1138,9 +1138,9 @@
     "clusterId": "A07-B",
     "clusterName": "主力节点策略",
     "title": "一个节点兼顾多个AI工具还是按任务分节点？如何比较操作成本？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a07-b1",
+    "targetRoute": "/ai/multi-platform-node-strategy/",
     "primaryIntent": "多AI平台兼容比较 - 主力节点策略 - 候选规划选题"
   },
   {
@@ -1151,9 +1151,9 @@
     "clusterId": "A07-B",
     "clusterName": "主力节点策略",
     "title": "多平台使用记录只有部分日期重合，能否给机场做统一总分？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a07-b2",
+    "targetRoute": "/ai/multi-platform-node-strategy/",
     "primaryIntent": "多AI平台兼容比较 - 主力节点策略 - 候选规划选题"
   },
   {
@@ -1164,9 +1164,9 @@
     "clusterId": "A07-B",
     "clusterName": "主力节点策略",
     "title": "AI平台增加新功能后，机场已有兼容结论需要重新验证哪些项目？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a07-b3",
+    "targetRoute": "/ai/multi-platform-node-strategy/",
     "primaryIntent": "多AI平台兼容比较 - 主力节点策略 - 候选规划选题"
   },
   {
@@ -1177,9 +1177,9 @@
     "clusterId": "A08-A",
     "clusterName": "连续任务",
     "title": "持续使用AI工作台时，机场需要怎样的长连接与恢复记录？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a08-a1",
+    "targetRoute": "/ai/continuous-tasks-long-connections/",
     "primaryIntent": "持续办公与出口变化 - 连续任务 - 候选规划选题"
   },
   {
@@ -1190,9 +1190,9 @@
     "clusterId": "A08-A",
     "clusterName": "连续任务",
     "title": "AI页面不断重连但最终能完成回答，这种体验应该怎样进入选购比较？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a08-a2",
+    "targetRoute": "/ai/continuous-tasks-long-connections/",
     "primaryIntent": "持续办公与出口变化 - 连续任务 - 候选规划选题"
   },
   {
@@ -1203,9 +1203,9 @@
     "clusterId": "A08-A",
     "clusterName": "连续任务",
     "title": "一天内多次切换AI节点，如何记录环境变化而不臆测账号风险分数？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a08-a3",
+    "targetRoute": "/ai/continuous-tasks-long-connections/",
     "primaryIntent": "持续办公与出口变化 - 连续任务 - 候选规划选题"
   },
   {
@@ -1216,9 +1216,9 @@
     "clusterId": "A08-B",
     "clusterName": "节点维护与服务变化",
     "title": "机场更换出口后AI功能变化，怎样保留旧记录并重新安排验证？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a08-b1",
+    "targetRoute": "/ai/node-maintenance-evolution/",
     "primaryIntent": "持续办公与出口变化 - 节点维护与服务变化 - 候选规划选题"
   },
   {
@@ -1229,9 +1229,9 @@
     "clusterId": "A08-B",
     "clusterName": "节点维护与服务变化",
     "title": "机场订阅更新改变了节点配置，AI办公用户应如何检查常用任务？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a08-b2",
+    "targetRoute": "/ai/node-maintenance-evolution/",
     "primaryIntent": "持续办公与出口变化 - 节点维护与服务变化 - 候选规划选题"
   },
   {
@@ -1242,9 +1242,9 @@
     "clusterId": "A08-B",
     "clusterName": "节点维护与服务变化",
     "title": "准备长期购买AI机场时，怎样区分短期可用与持续观察证据？",
-    "status": "candidate",
+    "status": "published",
     "mergedHub": "/ai/",
-    "targetRoute": "/ai/#a08-b3",
+    "targetRoute": "/ai/node-maintenance-evolution/",
     "primaryIntent": "持续办公与出口变化 - 节点维护与服务变化 - 候选规划选题"
   },
   {
