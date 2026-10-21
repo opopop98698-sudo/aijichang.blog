@@ -18,6 +18,12 @@ function ensureDir(dirPath) {
   }
 }
 
+function formatMoney(val) {
+  const num = typeof val === 'number' ? val : parseFloat(val);
+  if (isNaN(num)) return val;
+  return Number.isInteger(num) ? num.toString() : num.toFixed(2);
+}
+
 // 1. Generate site/brands/index.md
 const brandsIndexContent = [
   '---',
@@ -132,14 +138,14 @@ brands.forEach(b => {
     '',
     '| 套餐名称 | 计费周期 | 真实实付款 (首期) | 折算月均成本 | 每月可用流量 | 节点速率倍率 | 核心特性说明 |',
     '| :--- | :--- | :--- | :--- | :--- | :--- | :--- |',
-    ...(brandPlans.length > 0 ? brandPlans.map(p => `| **${p.name}** | ${p.billingCycle} | **¥${p.actualPayment}** | ¥${p.effectiveMonthlyCost.toFixed(2)}/月 | ${p.trafficGB ? p.trafficGB + ' GB' : '按需/不限'} | ${p.rateMultiplier || '1.0x'} | ${p.features ? p.features.join('；') : '基础网络'} |`) : [`| 基础套餐 | 月付/年付 | 详见官网 | 约 ¥${b.startingPriceMonthly}/月起 | 详见官网 | 1.0x | 专线网络 |`]),
+    ...(brandPlans.length > 0 ? brandPlans.map(p => `| **${p.name}** | ${p.billingCycle} | **¥${formatMoney(p.actualPayment)}** | ¥${formatMoney(p.effectiveMonthlyCost)}/月 | ${p.trafficGB ? p.trafficGB + ' GB' : '按需/不限'} | ${p.rateMultiplier || '1.0x'} | ${p.features ? p.features.join('；') : '基础网络'} |`) : [`| 基础套餐 | 月付/年付 | 详见官网 | 约 ¥${formatMoney(b.startingPriceMonthly)}/月起 | 详见官网 | 1.0x | 专线网络 |`]),
     ''
   ];
 
   if (brandOffers.length > 0) {
     detailLines.push('### 专属有效优惠码');
     brandOffers.forEach(o => {
-      detailLines.push(`- **优惠代码**：\`${o.couponCode}\` —— ${o.discountDescription}（实付款约 ¥${o.actualPaymentAfterDiscount}，适用范围：${o.applicableScope}）`);
+      detailLines.push(`- **优惠代码**：\`${o.couponCode}\` —— ${o.discountDescription}（实付款约 ¥${formatMoney(o.actualPaymentAfterDiscount)}，适用范围：${o.applicableScope}）`);
     });
     detailLines.push('');
   }

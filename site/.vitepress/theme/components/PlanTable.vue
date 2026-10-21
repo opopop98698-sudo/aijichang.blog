@@ -39,10 +39,10 @@
               </span>
             </td>
             <td class="payment-cell">
-              <span class="actual-price">¥{{ plan.actualPayment }}</span>
+              <span class="actual-price">¥{{ formatPrice(plan.actualPayment) }}</span>
             </td>
             <td class="cost-cell">
-              <span class="monthly-cost">¥{{ plan.effectiveMonthlyCost.toFixed(2) }}</span>
+              <span class="monthly-cost">¥{{ formatPrice(plan.effectiveMonthlyCost) }}</span>
             </td>
             <td class="traffic-cell">
               <strong>{{ plan.trafficGB }} GB</strong>
@@ -92,6 +92,12 @@ const formatCycle = (cycle: string) => {
     case 'once': return '不限时/一次性';
     default: return cycle;
   }
+};
+
+const formatPrice = (val: number | string) => {
+  const num = typeof val === 'number' ? val : parseFloat(val);
+  if (isNaN(num)) return val;
+  return Number.isInteger(num) ? num.toString() : num.toFixed(2);
 };
 
 const getBrandName = (brandId: string) => {
@@ -187,11 +193,18 @@ const filteredPlans = computed(() => {
 .actual-price {
   font-weight: 700;
   color: #0f172a;
+  white-space: nowrap;
 }
 
 .monthly-cost {
   font-weight: 600;
   color: var(--vp-c-brand-2);
+  white-space: nowrap;
+}
+
+.payment-cell,
+.cost-cell {
+  white-space: nowrap;
 }
 
 .rate-note {

@@ -44,7 +44,7 @@
     "brandId": "dalaoyun",
     "couponCode": "dly888",
     "discountDescription": "官方优惠码 dly888，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 8.399999999999999,
+    "actualPaymentAfterDiscount": 8.4,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false
@@ -114,7 +114,7 @@
     "brandId": "jilian",
     "couponCode": "ji8888",
     "discountDescription": "官方优惠码 ji8888，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 12.375,
+    "actualPaymentAfterDiscount": 12.38,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false
@@ -124,7 +124,7 @@
     "brandId": "guangnian",
     "couponCode": "gnt6666",
     "discountDescription": "官方优惠码 gnt6666，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 12.375,
+    "actualPaymentAfterDiscount": 12.38,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false
@@ -174,7 +174,7 @@
     "brandId": "shandianshu",
     "couponCode": "sd88",
     "discountDescription": "官方优惠码 sd88，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 8.399999999999999,
+    "actualPaymentAfterDiscount": 8.4,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false
@@ -184,7 +184,7 @@
     "brandId": "yunjiexian",
     "couponCode": "yjx888",
     "discountDescription": "官方优惠码 yjx888，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 8.399999999999999,
+    "actualPaymentAfterDiscount": 8.4,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false
@@ -194,7 +194,7 @@
     "brandId": "liulianyun",
     "couponCode": "ll88",
     "discountDescription": "官方优惠码 ll88，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 8.399999999999999,
+    "actualPaymentAfterDiscount": 8.4,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false
@@ -214,7 +214,7 @@
     "brandId": "huanqiuti",
     "couponCode": "HQ66",
     "discountDescription": "官方优惠码 HQ66，结账时输入立享专属折扣",
-    "actualPaymentAfterDiscount": 8.399999999999999,
+    "actualPaymentAfterDiscount": 8.4,
     "applicableScope": "指定周期套餐",
     "validUntil": null,
     "isExpired": false

@@ -103,6 +103,14 @@ p {
   text-align: left;
 }
 
+/* 确保表格中价格、代码与关键数值不单字/断行拆开 */
+.vp-doc td strong,
+.vp-doc td code,
+.vp-doc .actual-price,
+.vp-doc .monthly-cost {
+  white-space: nowrap;
+}
+
 .vp-doc th {
   background-color: var(--vp-c-bg-alt);
   font-weight: 600;

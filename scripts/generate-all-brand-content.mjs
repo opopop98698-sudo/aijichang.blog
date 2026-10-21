@@ -17,6 +17,12 @@ function ensureDir(dirPath) {
   }
 }
 
+function formatMoney(val) {
+  const num = typeof val === 'number' ? val : parseFloat(val);
+  if (isNaN(num)) return val;
+  return Number.isInteger(num) ? num.toString() : num.toFixed(2);
+}
+
 console.log('🔄 开始为 41 家机场生成深度档案页、内嵌实测图与 SEO 评测...');
 
 // 1. Generate site/brands/[slug]/index.md for all 41 brands
@@ -117,10 +123,10 @@ brands.forEach(b => {
 
   if (brandPlans.length > 0) {
     brandPlans.forEach(p => {
-      lines.push(`| **${p.name}** | ${p.billingCycle} | **¥${p.actualPayment}** | ¥${p.effectiveMonthlyCost.toFixed(2)}/月 | ${p.trafficGB ? p.trafficGB + ' GB' : '按需/不限'} | ${p.rateMultiplier || '1.0x'} | ${p.features ? p.features.join('；') : '基础网络'} |`);
+      lines.push(`| **${p.name}** | ${p.billingCycle} | **¥${formatMoney(p.actualPayment)}** | ¥${formatMoney(p.effectiveMonthlyCost)}/月 | ${p.trafficGB ? p.trafficGB + ' GB' : '按需/不限'} | ${p.rateMultiplier || '1.0x'} | ${p.features ? p.features.join('；') : '基础网络'} |`);
     });
   } else {
-    lines.push(`| 基础套餐 | 月付/年付 | 详见官网 | 约 ¥${b.startingPriceMonthly.toFixed(2)}/月起 | 100 GB | 1.0x | 专线网络 |`);
+    lines.push(`| 基础套餐 | 月付/年付 | 详见官网 | 约 ¥${formatMoney(b.startingPriceMonthly)}/月起 | 100 GB | 1.0x | 专线网络 |`);
   }
   lines.push('');
 
@@ -128,7 +134,7 @@ brands.forEach(b => {
   if (brandOffers.length > 0) {
     lines.push('### 正在生效的官方核验优惠码');
     brandOffers.forEach(o => {
-      lines.push(`- **专属优惠码**：\`${o.couponCode}\` —— ${o.discountDescription}（折后真实首付款约 ¥${o.actualPaymentAfterDiscount}，适用范围：${o.applicableScope}）`);
+      lines.push(`- **专属优惠码**：\`${o.couponCode}\` —— ${o.discountDescription}（折后真实首付款约 ¥${formatMoney(o.actualPaymentAfterDiscount)}，适用范围：${o.applicableScope}）`);
     });
     lines.push('');
   }

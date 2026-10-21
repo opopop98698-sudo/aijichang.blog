@@ -17,7 +17,9 @@ modifiedAt: 2026-10-21
 
 ---
 
-<SearchWidget />
+<div id="search-container" style="margin: 2rem 0; min-height: 400px;">
+  <div id="pagefind-ui"></div>
+</div>
 
 ---
 

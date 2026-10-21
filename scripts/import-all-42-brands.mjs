@@ -233,8 +233,8 @@ for (let i = 1; i < raw28.length; i++) {
       brandId: slug,
       name: `${nameClean}·基础标准版`,
       billingCycle: '月付',
-      actualPayment: startingCost * 1.5,
-      effectiveMonthlyCost: startingCost,
+      actualPayment: parseFloat((startingCost * 1.5).toFixed(2)),
+      effectiveMonthlyCost: parseFloat(startingCost.toFixed(2)),
       trafficGB: 100,
       trafficReset: '每月重置',
       features: ['高速专线', '不限设备', '流媒体优化']
