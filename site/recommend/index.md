@@ -26,11 +26,11 @@ provenance: self_measured
 
 <div class="brand-grid">
   <BrandCard brandId="lightspeed" />
-  <BrandCard brandId="wgetcloud" />
   <BrandCard brandId="flycat" />
   <BrandCard brandId="breezenet" />
   <BrandCard brandId="twilight" />
   <BrandCard brandId="dalaoyun" />
+  <BrandCard brandId="wgetcloud" />
 </div>
 
 ---

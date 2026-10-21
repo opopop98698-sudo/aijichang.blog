@@ -38,9 +38,9 @@ provenance: self_measured
 
 <div class="brand-grid">
   <BrandCard brandId="lightspeed" />
-  <BrandCard brandId="wgetcloud" />
   <BrandCard brandId="breezenet" />
   <BrandCard brandId="v2yun" />
+  <BrandCard brandId="wgetcloud" />
 </div>
 
 ---

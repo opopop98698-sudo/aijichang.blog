@@ -43,7 +43,8 @@
           <div class="badge-cluster">
             <span v-if="b.rank === 1" class="rank-tag gold-top">🏆 TOP 1 全站主推旗舰</span>
             <span v-else-if="b.rank <= 10" class="rank-tag blue-top">⭐ TOP {{ b.rank }} 推荐</span>
-            <span v-else class="rank-tag neutral-top">入库候选 #{{ b.rank }}</span>
+            <span v-else-if="b.rank <= 28" class="rank-tag neutral-top">精选档案 #{{ b.rank }}</span>
+            <span v-else class="rank-tag neutral-top">企业专线客观档案</span>
 
             <span v-if="b.speedtestImage" class="speedtest-badge">⚡ 含测速大图</span>
             <span v-if="b.unlockImages" class="unlock-badge">🔓 含解锁图</span>
@@ -57,13 +58,13 @@
               <span class="brand-initial">{{ b.name.slice(0, 1) }}</span>
             </div>
             <div class="brand-titles">
-              <h4 class="brand-name">
-                <a :href="`/brands/${b.id}/`" :title="b.name">{{ b.name }}</a>
-              </h4>
-              <div class="brand-meta-row">
-                <span class="brand-category-label">{{ b.categoryTag.split('（')[0] }}</span>
+              <div class="brand-name-row">
+                <h4 class="brand-name">
+                  <a :href="`/brands/${b.id}/`" :title="b.name">{{ b.name }}</a>
+                </h4>
                 <span v-if="b.establishedYear" class="brand-year">{{ b.establishedYear }}年运营</span>
               </div>
+              <div class="brand-category-label" :title="b.categoryTag">{{ b.categoryTag.split('（')[0] }}</div>
             </div>
           </div>
           <div class="price-tag">
@@ -142,7 +143,8 @@
       <div class="badge-cluster">
         <span v-if="singleBrand.rank === 1" class="rank-tag gold-top">🏆 TOP 1 全站主推旗舰</span>
         <span v-else-if="singleBrand.rank <= 10" class="rank-tag blue-top">⭐ TOP {{ singleBrand.rank }} 推荐</span>
-        <span v-else class="rank-tag neutral-top">客观测评档案 #{{ singleBrand.rank }}</span>
+        <span v-else-if="singleBrand.rank <= 28" class="rank-tag neutral-top">精选档案 #{{ singleBrand.rank }}</span>
+        <span v-else class="rank-tag neutral-top">企业专线客观档案</span>
 
         <span v-if="singleBrand.speedtestImage" class="speedtest-badge">⚡ 含测速大图</span>
         <span v-if="singleBrand.unlockImages" class="unlock-badge">🔓 含解锁图</span>
@@ -156,13 +158,13 @@
           <span class="brand-initial">{{ singleBrand.name.slice(0, 1) }}</span>
         </div>
         <div class="brand-titles">
-          <h4 class="brand-name">
-            <a :href="`/brands/${singleBrand.id}/`" :title="singleBrand.name">{{ singleBrand.name }}</a>
-          </h4>
-          <div class="brand-meta-row">
-            <span class="brand-category-label">{{ singleBrand.categoryTag }}</span>
+          <div class="brand-name-row">
+            <h4 class="brand-name">
+              <a :href="`/brands/${singleBrand.id}/`" :title="singleBrand.name">{{ singleBrand.name }}</a>
+            </h4>
             <span v-if="singleBrand.establishedYear" class="brand-year">{{ singleBrand.establishedYear }}年运营</span>
           </div>
+          <div class="brand-category-label" :title="singleBrand.categoryTag">{{ singleBrand.categoryTag }}</div>
         </div>
       </div>
       <div class="price-tag">
@@ -548,9 +550,16 @@ const singleBrandLink = computed(() => {
 .brand-titles {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
   flex: 1;
   min-width: 0;
+}
+
+.brand-name-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
 }
 
 .brand-name {

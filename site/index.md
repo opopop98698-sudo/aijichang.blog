@@ -47,11 +47,11 @@ provenance: self_measured
 
 <div class="brand-grid">
   <BrandCard brandId="lightspeed" />
-  <BrandCard brandId="wgetcloud" />
   <BrandCard brandId="flycat" />
   <BrandCard brandId="breezenet" />
   <BrandCard brandId="twilight" />
   <BrandCard brandId="dalaoyun" />
+  <BrandCard brandId="wgetcloud" />
 </div>
 
 > **商业透明度声明**：上述卡片中的“查看真实套餐”按钮包含本站合规推广链接（带有 `rel="nofollow sponsored noopener"` 标识）。若你通过该链接订阅服务，本站可能会获得一定比例的推荐佣金。此佣金用于支撑服务器托管与持续抓包测试开销，绝不会增加你的最终实付金额，亦不会改变我们对任何品牌缺陷的客观记录。
