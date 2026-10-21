@@ -1,0 +1,101 @@
+# ==============================================================================
+# aijichang.blog - Apache 生产环境纯静态部署配置文件
+# 适用环境：Apache 2.4+ (开启 mod_rewrite, mod_headers, mod_mime, mod_deflate)
+# ==============================================================================
+
+# 1. 默认首页与 404 错误承接
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+# 2. 启用 URL 重写与 cleanUrls 支持
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 规范化：强制全站 HTTPS (若已部署 SSL 证书)
+  # RewriteCond %{HTTPS} off
+  # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # 静态文件或目录真实存在时直接提供服务
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # CleanUrls 支持：将 /example 映射至 /example.html
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # 目录索引支持：将 /directory 映射至 /directory/index.html
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*)$ $1/index.html [L]
+</IfModule>
+
+# 3. MIME 扩展类型定义 (重点保障 Pagefind WASM 极速检索与 WebP 图像)
+<IfModule mod_mime.c>
+  AddType application/wasm .wasm
+  AddType application/json .json
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+  AddType application/javascript .js
+  AddType text/css .css
+  AddCharset UTF-8 .html .css .js .json .xml
+</IfModule>
+
+# 4. Gzip / Deflate 压缩配置
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json application/wasm image/svg+xml
+</IfModule>
+
+# 5. 客户端与 CDN 缓存策略
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+
+  # HTML 页面频繁更新，要求协商缓存
+  ExpiresByType text/html "access plus 0 seconds"
+
+  # 哈希指纹静态资产（CSS、JS、WASM、字体、Logo 图片），长效缓存 1 年
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType application/wasm "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>
+
+# 6. 安全响应头强化
+<IfModule mod_headers.c>
+  # 杜绝 MIME 嗅探攻击
+  Header set X-Content-Type-Options "nosniff"
+
+  # 点击劫持防御
+  Header set X-Frame-Options "SAMEORIGIN"
+
+  # 隐私保护 Referrer 策略
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # 跨站 FLoC / Topics 追踪阻断
+  Header set Permissions-Policy "interest-cohort=()"
+
+  # 为带哈希的资产追加 immutable 标头
+  <FilesMatch "\.(css|js|wasm|woff2|webp)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+
+  # HTML 文件必须每次重新验证
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+</IfModule>
+
+# 7. 禁止访问敏感文件与私有源码
+<FilesMatch "^\.|\.(jsonl|sh|mjs|ts|vue|md|bak|config)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "robots\.txt|sitemap\.xml">
+  Require all granted
+</FilesMatch>

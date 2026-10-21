@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hk",
+    "name": "香港（Hong Kong）",
+    "latencyRange": "15 - 35 ms",
+    "physicalProximity": "近端直连 / 极低延迟",
+    "officialAiStatus": "官方不支持（部分工具需分流绕行）",
+    "officialStreamingStatus": "支持 Netflix、Disney+ 繁体中文库",
+    "recommendScenario": "流媒体点播、低延迟游戏与常规网页浏览"
+  },
+  {
+    "id": "jp",
+    "name": "日本（Japan）",
+    "latencyRange": "45 - 80 ms",
+    "physicalProximity": "亚太近端 / 专线高速",
+    "officialAiStatus": "官方全支持（ChatGPT / Claude / Gemini）",
+    "officialStreamingStatus": "日区专属片库 / 动画独播丰富",
+    "recommendScenario": "AI 办公主力、流媒体综合主力"
+  },
+  {
+    "id": "sg",
+    "name": "新加坡（Singapore）",
+    "latencyRange": "40 - 70 ms",
+    "physicalProximity": "东南亚核心骨干汇聚",
+    "officialAiStatus": "官方全支持（ChatGPT / Claude / Gemini）",
+    "officialStreamingStatus": "中英双语字幕支持优良",
+    "recommendScenario": "跨国协作、AI 与开发调用双重主力"
+  },
+  {
+    "id": "us",
+    "name": "美国（United States）",
+    "latencyRange": "130 - 190 ms",
+    "physicalProximity": "远端大洋路由",
+    "officialAiStatus": "所有 AI 工具的第一首发和最完整功能支持区",
+    "officialStreamingStatus": "美区最全片库，但对机房 IP 审查最严",
+    "recommendScenario": "AI 新功能测试、API 开发、原生内容挖掘"
+  },
+  {
+    "id": "tw",
+    "name": "台湾（Taiwan）",
+    "latencyRange": "35 - 55 ms",
+    "physicalProximity": "近端海缆",
+    "officialAiStatus": "官方全支持（ChatGPT / Claude / Gemini）",
+    "officialStreamingStatus": "最适合中文观看的 Netflix/Disney+ 字幕库",
+    "recommendScenario": "追剧、繁体中文 AI 交互与流媒体"
+  },
+  {
+    "id": "eu",
+    "name": "欧洲（Europe - 英法德）",
+    "latencyRange": "160 - 220 ms",
+    "physicalProximity": "欧亚大陆路由",
+    "officialAiStatus": "受 GDPR 影响，部分 AI 新实验功能稍慢",
+    "officialStreamingStatus": "欧洲本地独家影音内容",
+    "recommendScenario": "特定跨国业务、备份节点"
+  }
+]

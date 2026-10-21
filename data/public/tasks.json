@@ -1,0 +1,44 @@
+[
+  {
+    "id": "task-auth",
+    "name": "账号认证与安全登录",
+    "tier": 3,
+    "successCondition": "成功通过登录验证且不出现 Access Denied / 验证码死循环"
+  },
+  {
+    "id": "task-stream-chat",
+    "name": "长文本流式对话生成",
+    "tier": 3,
+    "successCondition": "输入 500 字以上复杂 Prompt，持续稳定生成，无 Network Error 中断"
+  },
+  {
+    "id": "task-file-upload",
+    "name": "多模态附件/图片上传",
+    "tier": 3,
+    "successCondition": "成功上传 10MB 以上文档或多张图片并完成内容解析"
+  },
+  {
+    "id": "task-api-ttft",
+    "name": "API 首字耗时与流式响应",
+    "tier": 3,
+    "successCondition": "HTTP 200 返回，首字时延（TTFT）处于可控区间且数据完整"
+  },
+  {
+    "id": "task-video-playback",
+    "name": "版权片目播放防代理阻断",
+    "tier": 3,
+    "successCondition": "连续播放非自制独家片目 3 分钟以上无代理报错"
+  },
+  {
+    "id": "task-4k-buffer",
+    "name": "高码率持续缓冲抗丢帧",
+    "tier": 4,
+    "successCondition": "YouTube 4K/60fps 播放，Connection Speed > 35Mbps，无掉帧"
+  },
+  {
+    "id": "task-tiktok-publish",
+    "name": "短视频正常发布与地区识别",
+    "tier": 3,
+    "successCondition": "视频成功发布且在目标区域正常展现"
+  }
+]

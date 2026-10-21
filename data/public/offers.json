@@ -1,0 +1,242 @@
+[
+  {
+    "id": "offer-lightspeed-amm",
+    "brandId": "lightspeed",
+    "couponCode": "AMM",
+    "discountDescription": "官方优惠码 AMM，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 99,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-flycat-flycat888",
+    "brandId": "flycat",
+    "couponCode": "flycat888",
+    "discountDescription": "官方优惠码 flycat888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 84,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-breezenet-flat888",
+    "brandId": "breezenet",
+    "couponCode": "flat888",
+    "discountDescription": "官方优惠码 flat888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 137,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-twilight-muguang5555",
+    "brandId": "twilight",
+    "couponCode": "muguang5555",
+    "discountDescription": "官方优惠码 muguang5555，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 20,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-dalaoyun-dly888",
+    "brandId": "dalaoyun",
+    "couponCode": "dly888",
+    "discountDescription": "官方优惠码 dly888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 8.399999999999999,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-stardream-nmw888",
+    "brandId": "stardream",
+    "couponCode": "nmw888",
+    "discountDescription": "官方优惠码 nmw888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 96,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-2mao-ermao5555",
+    "brandId": "2mao",
+    "couponCode": "ermao5555",
+    "discountDescription": "官方优惠码 ermao5555，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 99,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-wuyou-wuyou666",
+    "brandId": "wuyou",
+    "couponCode": "wuyou666",
+    "discountDescription": "官方优惠码 wuyou666，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 79,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-v2yun-weitu666",
+    "brandId": "v2yun",
+    "couponCode": "weitu666",
+    "discountDescription": "官方优惠码 weitu666，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 120,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-u1s1-akaka",
+    "brandId": "u1s1",
+    "couponCode": "akaka",
+    "discountDescription": "官方优惠码 akaka，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 96,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-lingmao-lmao888",
+    "brandId": "lingmao",
+    "couponCode": "lmao888",
+    "discountDescription": "官方优惠码 lmao888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 85,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-jilian-ji8888",
+    "brandId": "jilian",
+    "couponCode": "ji8888",
+    "discountDescription": "官方优惠码 ji8888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 12.375,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-guangnian-gnt6666",
+    "brandId": "guangnian",
+    "couponCode": "gnt6666",
+    "discountDescription": "官方优惠码 gnt6666，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 12.375,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-yifan-yfy6666",
+    "brandId": "yifan",
+    "couponCode": "yfy6666",
+    "discountDescription": "官方优惠码 yfy6666，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 20,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-sogo-sogo10000",
+    "brandId": "sogo",
+    "couponCode": "SOGO10000",
+    "discountDescription": "官方优惠码 SOGO10000，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 98,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-kexin-kkk333",
+    "brandId": "kexin",
+    "couponCode": "kkk333",
+    "discountDescription": "官方优惠码 kkk333，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 22.5,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-sujie-sss1111",
+    "brandId": "sujie",
+    "couponCode": "sss1111",
+    "discountDescription": "官方优惠码 sss1111，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 22.5,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-shandianshu-sd88",
+    "brandId": "shandianshu",
+    "couponCode": "sd88",
+    "discountDescription": "官方优惠码 sd88，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 8.399999999999999,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-yunjiexian-yjx888",
+    "brandId": "yunjiexian",
+    "couponCode": "yjx888",
+    "discountDescription": "官方优惠码 yjx888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 8.399999999999999,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-liulianyun-ll88",
+    "brandId": "liulianyun",
+    "couponCode": "ll88",
+    "discountDescription": "官方优惠码 ll88，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 8.399999999999999,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-shenxing-xs0077",
+    "brandId": "shenxing",
+    "couponCode": "xs0077",
+    "discountDescription": "官方优惠码 xs0077，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 22.5,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-huanqiuti-hq66",
+    "brandId": "huanqiuti",
+    "couponCode": "HQ66",
+    "discountDescription": "官方优惠码 HQ66，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 8.399999999999999,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-yinxingren-yxr888",
+    "brandId": "yinxingren",
+    "couponCode": "yxr888",
+    "discountDescription": "官方优惠码 yxr888，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 24,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  },
+  {
+    "id": "offer-tiziyun-tiziyun",
+    "brandId": "tiziyun",
+    "couponCode": "tiziyun",
+    "discountDescription": "官方优惠码 tiziyun，结账时输入立享专属折扣",
+    "actualPaymentAfterDiscount": 22.5,
+    "applicableScope": "指定周期套餐",
+    "validUntil": null,
+    "isExpired": false
+  }
+]

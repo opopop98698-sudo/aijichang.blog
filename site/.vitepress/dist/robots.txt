@@ -1,0 +1,13 @@
+# ==============================================================================
+# aijichang.blog - Robots Exclusion Protocol
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# 禁止抓取搜索中间切片与内部缓存
+Disallow: /pagefind/
+Disallow: /*?*
+
+# 站点地图引用
+Sitemap: https://aijichang.blog/sitemap.xml

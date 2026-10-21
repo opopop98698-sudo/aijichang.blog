@@ -1,0 +1,228 @@
+/* aijichang.blog 品牌化简白主题核心样式 (Clean White Minimalist Theme) */
+
+:root {
+  --vp-c-brand-1: #1e40af;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #3b82f6;
+  --vp-c-brand-soft: #eff6ff;
+
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f1f5f9;
+
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #334155;
+  --vp-c-text-3: #64748b;
+
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #e2e8f0;
+  --vp-c-gutter: #e2e8f0;
+
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --vp-layout-max-width: 1280px;
+}
+
+/* 统一重置暗黑模式覆盖，坚决杜绝黑绿监控屏/赛博朋克/暗黑台风格 */
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-alt: #1e293b;
+  --vp-c-bg-elv: #1e293b;
+  --vp-c-bg-soft: #334155;
+  --vp-c-text-1: #f8fafc;
+  --vp-c-text-2: #cbd5e1;
+  --vp-c-text-3: #94a3b8;
+  --vp-c-border: #334155;
+  --vp-c-divider: #334155;
+}
+
+/* 排版优化 */
+body {
+  font-family: var(--vp-font-family-base);
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-bg);
+  -webkit-font-smoothing: antialiased;
+  word-break: break-word;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.1rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid var(--vp-c-brand-soft);
+  padding-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  line-height: 1.75;
+  margin-bottom: 1.1rem;
+  color: var(--vp-c-text-2);
+}
+
+/* 表格响应式与轻量边框 */
+.vp-doc table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  background-color: var(--vp-c-bg);
+}
+
+.vp-doc th, .vp-doc td {
+  padding: 10px 14px;
+  border: 1px solid var(--vp-c-border);
+  font-size: 0.92rem;
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-alt);
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.vp-doc tr:nth-child(even) {
+  background-color: var(--vp-c-bg-alt);
+}
+
+/* 390px 移动端防溢出保护 */
+@media (max-width: 640px) {
+  h1 { font-size: 1.65rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.15rem; }
+  .vp-doc table {
+    font-size: 0.85rem;
+  }
+  .vp-doc th, .vp-doc td {
+    padding: 8px 10px;
+  }
+}
+
+/* 决策与信息呼出框 */
+.callout-box {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  border-left: 4px solid var(--vp-c-brand-2);
+  background-color: var(--vp-c-bg-alt);
+}
+
+.callout-box.warning {
+  border-left-color: #f59e0b;
+  background-color: #fffbeb;
+}
+
+.callout-box.danger {
+  border-left-color: #ef4444;
+  background-color: #fef2f2;
+}
+
+.callout-box.info {
+  border-left-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+/* 按钮与操作组件 */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #ffffff !important;
+  background-color: var(--vp-c-brand-2);
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--vp-c-brand-1);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--vp-c-text-1) !important;
+  background-color: transparent;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: var(--vp-c-bg-alt);
+  border-color: var(--vp-c-brand-3);
+  color: var(--vp-c-brand-2) !important;
+}
+
+/* 徽章样式 */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.badge-success { background-color: #dcfce7; color: #166534; }
+.badge-warning { background-color: #fef3c7; color: #92400e; }
+.badge-danger  { background-color: #fee2e2; color: #991b1b; }
+.badge-neutral { background-color: #f1f5f9; color: #475569; }
+.badge-info    { background-color: #e0f2fe; color: #075985; }
+
+/* 品牌卡片网格 */
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .brand-grid {
+    grid-template-columns: 1fr;
+  }
+}

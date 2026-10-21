@@ -1,0 +1,50 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI / ChatGPT",
+    "officialDocUrl": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries",
+    "description": "全球领先的大语言模型平台，涵盖网页对话、移动客户端及开发者 API。"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic / Claude",
+    "officialDocUrl": "https://support.claude.com/en/articles/8461763-where-can-i-access-claude",
+    "description": "主打高智能与长上下文的大语言模型，对出口网络机房属性与地区合规风控极其严苛。"
+  },
+  {
+    "id": "google",
+    "name": "Google / Gemini",
+    "officialDocUrl": "https://ai.google.dev/gemini-api/docs/available-regions",
+    "description": "深度整合 Google 生态的 AI 工具，涵盖 Web 应用、AI Studio 工作台及多模态 API。"
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "officialDocUrl": "https://help.netflix.com/en/node/114701",
+    "description": "全球流媒体巨头，按国家划分独占版权片库，严格拦截数据中心代理 IP。"
+  },
+  {
+    "id": "disney",
+    "name": "Disney+",
+    "officialDocUrl": "https://help.disneyplus.com/article/disneyplus-error-73",
+    "description": "包含迪士尼、漫威、星战等 IP 的流媒体平台，严控地区认证与 Error 73 报错。"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "officialDocUrl": "https://www.youtube.com",
+    "description": "全球最大视频点播与直播平台，支持 4K/60fps HDR 及高码率点播。"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "officialDocUrl": "https://support.tiktok.com/",
+    "description": "全球短视频与跨境电商社交平台，对 SIM 卡与住宅原生出口网络要求极高。"
+  },
+  {
+    "id": "speedtest",
+    "name": "全节点测速与延迟基准 (Speedtest)",
+    "officialDocUrl": "https://github.com",
+    "description": "基于 MAI-TEST-BOT 标准化探针的全节点延迟 (TLS RTT) 与下载吞吐带宽基准压测。"
+  }
+]

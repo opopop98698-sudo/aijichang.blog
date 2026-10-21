@@ -1,0 +1,80 @@
+[
+  {
+    "id": "chatgpt-web",
+    "platformId": "openai",
+    "name": "ChatGPT 网页版",
+    "entryUrl": "https://chatgpt.com"
+  },
+  {
+    "id": "chatgpt-mobile",
+    "platformId": "openai",
+    "name": "ChatGPT 移动官方应用",
+    "entryUrl": "https://chatgpt.com"
+  },
+  {
+    "id": "openai-api",
+    "platformId": "openai",
+    "name": "OpenAI 官方 API",
+    "entryUrl": "https://api.openai.com"
+  },
+  {
+    "id": "claude-web",
+    "platformId": "anthropic",
+    "name": "Claude 网页版",
+    "entryUrl": "https://claude.ai"
+  },
+  {
+    "id": "claude-code",
+    "platformId": "anthropic",
+    "name": "Claude Code 终端编程工具",
+    "entryUrl": "https://claude.ai/code"
+  },
+  {
+    "id": "claude-api",
+    "platformId": "anthropic",
+    "name": "Anthropic 官方 API",
+    "entryUrl": "https://api.anthropic.com"
+  },
+  {
+    "id": "gemini-app",
+    "platformId": "google",
+    "name": "Gemini Web / 移动应用",
+    "entryUrl": "https://gemini.google.com"
+  },
+  {
+    "id": "google-ai-studio",
+    "platformId": "google",
+    "name": "Google AI Studio",
+    "entryUrl": "https://aistudio.google.com"
+  },
+  {
+    "id": "gemini-api",
+    "platformId": "google",
+    "name": "Gemini Developer API",
+    "entryUrl": "https://generativelanguage.googleapis.com"
+  },
+  {
+    "id": "netflix-playback",
+    "platformId": "netflix",
+    "name": "Netflix 实际版权片目播放",
+    "entryUrl": "https://netflix.com"
+  },
+  {
+    "id": "disney-playback",
+    "platformId": "disney",
+    "name": "Disney+ 实际播放",
+    "entryUrl": "https://disneyplus.com"
+  },
+  {
+    "id": "youtube-4k",
+    "platformId": "youtube",
+    "name": "YouTube 4K 点播与直播",
+    "entryUrl": "https://youtube.com"
+  },
+  {
+    "id": "tiktok-flow",
+    "platformId": "tiktok",
+    "name": "TikTok 视频信息流与发布",
+    "entryUrl": "https://tiktok.com"
+  }
+]

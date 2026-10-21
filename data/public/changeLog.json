@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-10-21",
+    "type": "init",
+    "title": "aijichang.blog 全面重构上线",
+    "details": "基于 VitePress 1.6 + Pagefind 1.5 搭建纯静态、简白品牌化、支持四层可用性评估的中文 AI 与流媒体机场选购指南。"
+  },
+  {
+    "date": "2026-10-19",
+    "type": "data_update",
+    "title": "同步 28 品牌最新观测记录",
+    "details": "归档光速云、飞猫云、微风网络等 28 个品牌的独有特征、真实套餐、优惠码与测速批次数据。"
+  },
+  {
+    "date": "2026-08-24",
+    "type": "archive",
+    "title": "归档 14 品牌华为云与专线实测记录",
+    "details": "存证 WgetCloud、FlyingBird、EdgeNova 等 14 个品牌的历史测速延迟与多节点解锁表现。"
+  }
+]

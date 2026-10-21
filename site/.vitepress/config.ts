@@ -1,0 +1,187 @@
+import { defineConfig } from 'vitepress';
+
+export default defineConfig({
+  lang: 'zh-CN',
+  title: 'AI机场',
+  description: '面向使用 ChatGPT、Claude、Gemini 以及 Netflix、Disney+、YouTube、TikTok 的中文用户，依据真实套餐、具体任务和可追溯记录选择机场。',
+  cleanUrls: true,
+  lastUpdated: true,
+  sitemap: {
+    hostname: 'https://aijichang.blog'
+  },
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
+    ['meta', { property: 'og:site_name', content: 'AI机场 - aijichang.blog' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'applicable-device', content: 'pc,mobile' }]
+  ],
+  themeConfig: {
+    siteTitle: 'AI机场',
+    logo: '/logos/galaxy_transparent_square.webp',
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '机场推荐', link: '/recommend/' },
+      { text: 'AI机场', link: '/ai/' },
+      { text: '流媒体机场', link: '/streaming/' },
+      { text: '免费机场', link: '/free/' },
+      { text: '节点地区', link: '/regions/' },
+      { text: 'AI使用指南', link: '/guides/' },
+      { text: '解锁实测', link: '/tests/' },
+      { text: '优惠情报', link: '/deals/' },
+      {
+        text: '更多',
+        items: [
+          { text: '机场品牌库', link: '/brands/' },
+          { text: '交互工具箱', link: '/tools/' },
+          { text: '站内全文检索', link: '/search/' },
+          { text: '四层评测方法', link: '/methodology/' },
+          { text: '商业披露与赞助', link: '/disclosure/' },
+          { text: '关于本站', link: '/about/' },
+          { text: '更正与勘误归档', link: '/corrections/' },
+          { text: '隐私政策', link: '/privacy/' }
+        ]
+      }
+    ],
+    sidebar: {
+      '/recommend/': [
+        {
+          text: '机场推荐指南',
+          items: [
+            { text: '综合方案推荐与选购', link: '/recommend/' },
+            { text: 'R01 第一次购买机场', link: '/recommend/#r01' },
+            { text: 'R02 AI办公机场选择', link: '/recommend/#r02' },
+            { text: 'R03 娱乐影音机场选择', link: '/recommend/#r03' },
+            { text: 'R04 AI与影音综合方案', link: '/recommend/#r04' },
+            { text: 'R05 多设备与客户端兼容', link: '/recommend/#r05' },
+            { text: 'R06 流量与付款周期', link: '/recommend/#r06' },
+            { text: 'R07 主力与备用方案', link: '/recommend/#r07' },
+            { text: 'R08 推荐证据与横向比较', link: '/recommend/#r08' }
+          ]
+        }
+      ],
+      '/ai/': [
+        {
+          text: 'AI机场专题',
+          items: [
+            { text: 'AI机场核心看板', link: '/ai/' },
+            { text: 'A01 ChatGPT机场', link: '/ai/#a01' },
+            { text: 'A02 Claude机场', link: '/ai/#a02' },
+            { text: 'A03 Gemini机场', link: '/ai/#a03' },
+            { text: 'A04 AI API网络方案', link: '/ai/#a04' },
+            { text: 'A05 AI编程工具网络', link: '/ai/#a05' },
+            { text: 'A06 多模态与实时任务', link: '/ai/#a06' },
+            { text: 'A07 多AI平台兼容比较', link: '/ai/#a07' },
+            { text: 'A08 持续办公与出口变化', link: '/ai/#a08' }
+          ]
+        }
+      ],
+      '/streaming/': [
+        {
+          text: '流媒体机场专题',
+          items: [
+            { text: '流媒体选型总览', link: '/streaming/' },
+            { text: 'S01 Netflix机场', link: '/streaming/#s01' },
+            { text: 'S02 Disney+机场', link: '/streaming/#s02' },
+            { text: 'S03 YouTube机场', link: '/streaming/#s03' },
+            { text: 'S04 TikTok网络与地区', link: '/streaming/#s04' },
+            { text: 'S05 其他影音服务', link: '/streaming/#s05' },
+            { text: 'S06 清晰度与播放设备', link: '/streaming/#s06' },
+            { text: 'S07 家庭多屏观看', link: '/streaming/#s07' },
+            { text: 'S08 直播与长时间播放', link: '/streaming/#s08' }
+          ]
+        }
+      ],
+      '/free/': [
+        {
+          text: '免费机场专题',
+          items: [
+            { text: '免费机场与试用核查', link: '/free/' },
+            { text: 'F01 真实免费资源', link: '/free/#f01' },
+            { text: 'F02 免费试用机场', link: '/free/#f02' },
+            { text: 'F03 注册赠送与活动额度', link: '/free/#f03' },
+            { text: 'F04 小额度试用测试', link: '/free/#f04' },
+            { text: 'F05 免费稳定性与限流', link: '/free/#f05' },
+            { text: 'F06 订阅来源与使用安全', link: '/free/#f06' },
+            { text: 'F07 免费客户端与服务费用', link: '/free/#f07' },
+            { text: 'F08 低预算付费替代', link: '/free/#f08' }
+          ]
+        }
+      ],
+      '/regions/': [
+        {
+          text: '节点地区专题',
+          items: [
+            { text: '节点地区指南总览', link: '/regions/' },
+            { text: 'G01 香港节点', link: '/regions/#g01' },
+            { text: 'G02 日本节点', link: '/regions/#g02' },
+            { text: 'G03 新加坡节点', link: '/regions/#g03' },
+            { text: 'G04 美国节点', link: '/regions/#g04' },
+            { text: 'G05 台湾及其他亚洲地区', link: '/regions/#g05' },
+            { text: 'G06 欧洲及其他地区', link: '/regions/#g06' },
+            { text: 'G07 IP地区与地址属性', link: '/regions/#g07' },
+            { text: 'G08 按任务选择地区', link: '/regions/#g08' }
+          ]
+        }
+      ],
+      '/guides/': [
+        {
+          text: 'AI使用指南专题',
+          items: [
+            { text: '指南与排障总纲', link: '/guides/' },
+            { text: 'U01 平台资格与官方规则', link: '/guides/#u01' },
+            { text: 'U02 首次连接与成功验证', link: '/guides/#u02' },
+            { text: 'U03 登录与账户问题', link: '/guides/#u03' },
+            { text: 'U04 对话慢与输出中断', link: '/guides/#u04' },
+            { text: 'U05 上传下载与多模态故障', link: '/guides/#u05' },
+            { text: 'U06 API与命令行网络配置', link: '/guides/#u06' },
+            { text: 'U07 DNS、分流与系统设置', link: '/guides/#u07' },
+            { text: 'U08 隐私、迁移与环境变更', link: '/guides/#u08' }
+          ]
+        }
+      ],
+      '/tests/': [
+        {
+          text: '解锁实测专题',
+          items: [
+            { text: '解锁实测中心', link: '/tests/' },
+            { text: 'T01 解锁测试方法与环境', link: '/tests/#t01' },
+            { text: 'T02 AI网页与应用实测', link: '/tests/#t02' },
+            { text: 'T03 API与开发工具实测', link: '/tests/#t03' },
+            { text: 'T04 流媒体目录与播放实测', link: '/tests/#t04' },
+            { text: 'T05 出口地区与IP检测', link: '/tests/#t05' },
+            { text: 'T06 地区运营商与时段对照', link: '/tests/#t06' },
+            { text: 'T07 失败追踪与复测', link: '/tests/#t07' },
+            { text: 'T08 证据归档与结果比较', link: '/tests/#t08' }
+          ]
+        }
+      ],
+      '/deals/': [
+        {
+          text: '优惠情报专题',
+          items: [
+            { text: '优惠情报中心', link: '/deals/' },
+            { text: 'D01 AI场景套餐优惠', link: '/deals/#d01' },
+            { text: 'D02 流媒体套餐优惠', link: '/deals/#d02' },
+            { text: 'D03 大流量活动', link: '/deals/#d03' },
+            { text: 'D04 优惠码核验', link: '/deals/#d04' },
+            { text: 'D05 付款周期与总成本', link: '/deals/#d05' },
+            { text: 'D06 不限时流量与短期方案', link: '/deals/#d06' },
+            { text: 'D07 续费与价格变动', link: '/deals/#d07' },
+            { text: 'D08 付款退款与活动归档', link: '/deals/#d08' }
+          ]
+        }
+      ]
+    },
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+    footer: {
+      message: '客观基于真实套餐与可追溯任务证据｜商业推广入口透明披露',
+      copyright: 'Copyright © 2026 AI机场 aijichang.blog. 遵循简白、移动优先与事实归因原则.'
+    }
+  }
+});

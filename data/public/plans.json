@@ -1,0 +1,5215 @@
+[
+  {
+    "id": "flycat-plan-1",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·学生版",
+    "billingCycle": "年付",
+    "actualPayment": 84,
+    "effectiveMonthlyCost": 7,
+    "trafficGB": 50,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "50GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "flycat-plan-2",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·星耀版",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "flycat-plan-3",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·星环版",
+    "billingCycle": "月付",
+    "actualPayment": 45,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "flycat-plan-4",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·银河版",
+    "billingCycle": "月付",
+    "actualPayment": 85,
+    "effectiveMonthlyCost": 85,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "600GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "flycat-plan-5",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·宇宙版",
+    "billingCycle": "月付",
+    "actualPayment": 150,
+    "effectiveMonthlyCost": 150,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "flycat-plan-6",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·不限时套餐",
+    "billingCycle": "一次性付费",
+    "actualPayment": 680,
+    "effectiveMonthlyCost": 680,
+    "trafficGB": 1000,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "1000GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "flycat-plan-7",
+    "brandId": "flycat",
+    "name": "飞猫云·飞猫·定制套餐",
+    "billingCycle": "月付",
+    "actualPayment": 550,
+    "effectiveMonthlyCost": 550,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "breezenet-plan-1",
+    "brandId": "breezenet",
+    "name": "微风网络·清风 (Breeze)",
+    "billingCycle": "年付",
+    "actualPayment": 137,
+    "effectiveMonthlyCost": 11.42,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "100GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "breezenet-plan-2",
+    "brandId": "breezenet",
+    "name": "微风网络·乘风 (Riding)",
+    "billingCycle": "月付",
+    "actualPayment": 27,
+    "effectiveMonthlyCost": 27,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "breezenet-plan-3",
+    "brandId": "breezenet",
+    "name": "微风网络·破风 (Breaking)",
+    "billingCycle": "月付",
+    "actualPayment": 57,
+    "effectiveMonthlyCost": 57,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "breezenet-plan-4",
+    "brandId": "breezenet",
+    "name": "微风网络·御风 (Mastery)",
+    "billingCycle": "月付",
+    "actualPayment": 127,
+    "effectiveMonthlyCost": 127,
+    "trafficGB": 1200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1200GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "breezenet-plan-5",
+    "brandId": "breezenet",
+    "name": "微风网络·信风·不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 200,
+    "effectiveMonthlyCost": 200,
+    "trafficGB": 270,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "270GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "breezenet-plan-6",
+    "brandId": "breezenet",
+    "name": "微风网络·长风·不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 370,
+    "effectiveMonthlyCost": 370,
+    "trafficGB": 570,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "570GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "twilight-plan-1",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·基础版】",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "120GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-2",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·标准版】",
+    "billingCycle": "月付",
+    "actualPayment": 40,
+    "effectiveMonthlyCost": 40,
+    "trafficGB": 240,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "240GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-3",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·旗舰版】",
+    "billingCycle": "月付",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "700GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-4",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·至尊版】",
+    "billingCycle": "月付",
+    "actualPayment": 180,
+    "effectiveMonthlyCost": 180,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1500GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-5",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·年付轻量版】",
+    "billingCycle": "年付",
+    "actualPayment": 109,
+    "effectiveMonthlyCost": 9.08,
+    "trafficGB": 70,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "70GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-6",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·不限时轻量包】",
+    "billingCycle": "一次性付费",
+    "actualPayment": 219,
+    "effectiveMonthlyCost": 219,
+    "trafficGB": 150,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "150GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-7",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·不限时标准包】",
+    "billingCycle": "一次性付费",
+    "actualPayment": 529,
+    "effectiveMonthlyCost": 529,
+    "trafficGB": 400,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "400GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-8",
+    "brandId": "twilight",
+    "name": "暮光加速·【暮光·不限时大容量包】",
+    "billingCycle": "一次性付费",
+    "actualPayment": 959,
+    "effectiveMonthlyCost": 959,
+    "trafficGB": 800,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "800GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "twilight-plan-9",
+    "brandId": "twilight",
+    "name": "暮光加速·独享私人定制节点",
+    "billingCycle": "月付",
+    "actualPayment": 600,
+    "effectiveMonthlyCost": 600,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "dalaoyun-plan-default",
+    "brandId": "dalaoyun",
+    "name": "大佬云·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 8.399999999999999,
+    "effectiveMonthlyCost": 5.6,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "stardream-plan-1",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·贴心小包",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-2",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·超量150G",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-3",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·进阶300G",
+    "billingCycle": "月付",
+    "actualPayment": 50,
+    "effectiveMonthlyCost": 50,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-4",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·闪光500G",
+    "billingCycle": "月付",
+    "actualPayment": 70,
+    "effectiveMonthlyCost": 70,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-5",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·旗舰1T版",
+    "billingCycle": "月付",
+    "actualPayment": 130,
+    "effectiveMonthlyCost": 130,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-6",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·永久不限时100",
+    "billingCycle": "一次性付费",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-7",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·永久不限时300",
+    "billingCycle": "一次性付费",
+    "actualPayment": 300,
+    "effectiveMonthlyCost": 300,
+    "trafficGB": 300,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-8",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·永久不限时1TB",
+    "billingCycle": "一次性付费",
+    "actualPayment": 600,
+    "effectiveMonthlyCost": 600,
+    "trafficGB": 1000,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "1000GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "stardream-plan-9",
+    "brandId": "stardream",
+    "name": "星岛梦·星岛梦·定制套餐",
+    "billingCycle": "月付",
+    "actualPayment": 680,
+    "effectiveMonthlyCost": 680,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "2mao-plan-1",
+    "brandId": "2mao",
+    "name": "二猫云·二猫云·不限时套餐",
+    "billingCycle": "一次性付费",
+    "actualPayment": 99,
+    "effectiveMonthlyCost": 99,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "2mao-plan-2",
+    "brandId": "2mao",
+    "name": "二猫云·二猫年付小包",
+    "billingCycle": "年付",
+    "actualPayment": 89,
+    "effectiveMonthlyCost": 7.42,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "2mao-plan-3",
+    "brandId": "2mao",
+    "name": "二猫云·二猫云·白猫套餐",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 130,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "130GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "2mao-plan-4",
+    "brandId": "2mao",
+    "name": "二猫云·二猫云·橘猫畅玩版",
+    "billingCycle": "月付",
+    "actualPayment": 40,
+    "effectiveMonthlyCost": 40,
+    "trafficGB": 230,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "230GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "2mao-plan-5",
+    "brandId": "2mao",
+    "name": "二猫云·二猫云·牛奶猫尊享版",
+    "billingCycle": "月付",
+    "actualPayment": 80,
+    "effectiveMonthlyCost": 80,
+    "trafficGB": 430,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "430GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "2mao-plan-6",
+    "brandId": "2mao",
+    "name": "二猫云·二猫云·黑猫重度用户版",
+    "billingCycle": "月付",
+    "actualPayment": 160,
+    "effectiveMonthlyCost": 160,
+    "trafficGB": 850,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "850GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-1",
+    "brandId": "wuyou",
+    "name": "无忧链接·MINI链接",
+    "billingCycle": "年付",
+    "actualPayment": 79,
+    "effectiveMonthlyCost": 6.58,
+    "trafficGB": 40,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "40GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-2",
+    "brandId": "wuyou",
+    "name": "无忧链接·舒心链接",
+    "billingCycle": "月付",
+    "actualPayment": 19,
+    "effectiveMonthlyCost": 19,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-3",
+    "brandId": "wuyou",
+    "name": "无忧链接·省心链接",
+    "billingCycle": "月付",
+    "actualPayment": 33,
+    "effectiveMonthlyCost": 33,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-4",
+    "brandId": "wuyou",
+    "name": "无忧链接·随心链接",
+    "billingCycle": "月付",
+    "actualPayment": 77,
+    "effectiveMonthlyCost": 77,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-5",
+    "brandId": "wuyou",
+    "name": "无忧链接·忘忧链接",
+    "billingCycle": "月付",
+    "actualPayment": 117,
+    "effectiveMonthlyCost": 117,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-6",
+    "brandId": "wuyou",
+    "name": "无忧链接·100G永久不限时 无忧链接",
+    "billingCycle": "一次性付费",
+    "actualPayment": 108,
+    "effectiveMonthlyCost": 108,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "wuyou-plan-7",
+    "brandId": "wuyou",
+    "name": "无忧链接·300G永久不限时 无忧链接",
+    "billingCycle": "一次性付费",
+    "actualPayment": 298,
+    "effectiveMonthlyCost": 298,
+    "trafficGB": 300,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "v2yun-plan-1",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·年付加强专线",
+    "billingCycle": "年付",
+    "actualPayment": 120,
+    "effectiveMonthlyCost": 10,
+    "trafficGB": 75,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "75GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-2",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·年付版限量款",
+    "billingCycle": "年付",
+    "actualPayment": 79.9,
+    "effectiveMonthlyCost": 6.66,
+    "trafficGB": 45,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "45GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-3",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·节假日限时开启（14.9元）",
+    "billingCycle": "月付",
+    "actualPayment": 14.9,
+    "effectiveMonthlyCost": 14.9,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-4",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·普通版",
+    "billingCycle": "月付",
+    "actualPayment": 19.9,
+    "effectiveMonthlyCost": 19.9,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-5",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·进阶版",
+    "billingCycle": "月付",
+    "actualPayment": 29.9,
+    "effectiveMonthlyCost": 29.9,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-6",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·专业版",
+    "billingCycle": "月付",
+    "actualPayment": 59.9,
+    "effectiveMonthlyCost": 59.9,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-7",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·至尊版",
+    "billingCycle": "月付",
+    "actualPayment": 119.9,
+    "effectiveMonthlyCost": 119.9,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-8",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·永久不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-9",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·永久不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 160,
+    "effectiveMonthlyCost": 160,
+    "trafficGB": 200,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "200GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "v2yun-plan-10",
+    "brandId": "v2yun",
+    "name": "唯兔云·唯兔云·永久不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 340,
+    "effectiveMonthlyCost": 340,
+    "trafficGB": 500,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "500GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-1",
+    "brandId": "firefly",
+    "name": "Firefly·Firefly 年付版",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-2",
+    "brandId": "firefly",
+    "name": "Firefly·Firefly Lite",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-3",
+    "brandId": "firefly",
+    "name": "Firefly·Firefly Plus",
+    "billingCycle": "月付",
+    "actualPayment": 45,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-4",
+    "brandId": "firefly",
+    "name": "Firefly·Firefly Blaze",
+    "billingCycle": "月付",
+    "actualPayment": 85,
+    "effectiveMonthlyCost": 85,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "600GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-5",
+    "brandId": "firefly",
+    "name": "Firefly·Firefly Nova",
+    "billingCycle": "月付",
+    "actualPayment": 150,
+    "effectiveMonthlyCost": 150,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-6",
+    "brandId": "firefly",
+    "name": "Firefly·Firefly 不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yuzhou-plan-default",
+    "brandId": "yuzhou",
+    "name": "宇宙云·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 22.5,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "u1s1-plan-1",
+    "brandId": "u1s1",
+    "name": "U1S1·u1s1·就是好用包",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "u1s1-plan-2",
+    "brandId": "u1s1",
+    "name": "U1S1·u1s1·普通人真够了包",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "120GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "u1s1-plan-3",
+    "brandId": "u1s1",
+    "name": "U1S1·u1s1·你以为用不到包",
+    "billingCycle": "月付",
+    "actualPayment": 40,
+    "effectiveMonthlyCost": 40,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "u1s1-plan-4",
+    "brandId": "u1s1",
+    "name": "U1S1·u1s1·瘾大就拉满包",
+    "billingCycle": "月付",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "700GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "u1s1-plan-5",
+    "brandId": "u1s1",
+    "name": "U1S1·u1s1·我全都要包",
+    "billingCycle": "月付",
+    "actualPayment": 180,
+    "effectiveMonthlyCost": 180,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1500GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "lingmao-plan-1",
+    "brandId": "lingmao",
+    "name": "灵猫网络·灵猫·年付小包",
+    "billingCycle": "年付",
+    "actualPayment": 85,
+    "effectiveMonthlyCost": 7.08,
+    "trafficGB": 45,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "45GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "lingmao-plan-2",
+    "brandId": "lingmao",
+    "name": "灵猫网络·灵猫·年付Small",
+    "billingCycle": "年付",
+    "actualPayment": 195,
+    "effectiveMonthlyCost": 16.25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "150GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "lingmao-plan-3",
+    "brandId": "lingmao",
+    "name": "灵猫网络·灵猫·年付Big",
+    "billingCycle": "年付",
+    "actualPayment": 295,
+    "effectiveMonthlyCost": 24.58,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "lingmao-plan-4",
+    "brandId": "lingmao",
+    "name": "灵猫网络·灵猫·季付Big",
+    "billingCycle": "季付",
+    "actualPayment": 125,
+    "effectiveMonthlyCost": 41.67,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "lingmao-plan-5",
+    "brandId": "lingmao",
+    "name": "灵猫网络·灵猫·月付Small",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "lingmao-plan-6",
+    "brandId": "lingmao",
+    "name": "灵猫网络·灵猫·月付Big",
+    "billingCycle": "月付",
+    "actualPayment": 45,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "jilian-plan-default",
+    "brandId": "jilian",
+    "name": "极连云·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 12.375,
+    "effectiveMonthlyCost": 8.25,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "guangnian-plan-default",
+    "brandId": "guangnian",
+    "name": "光年梯·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 12.375,
+    "effectiveMonthlyCost": 8.25,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "yifan-plan-1",
+    "brandId": "yifan",
+    "name": "一翻云·轻享版",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-2",
+    "brandId": "yifan",
+    "name": "一翻云·舒享版",
+    "billingCycle": "月付",
+    "actualPayment": 35,
+    "effectiveMonthlyCost": 35,
+    "trafficGB": 350,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "350GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-3",
+    "brandId": "yifan",
+    "name": "一翻云·尊享版",
+    "billingCycle": "月付",
+    "actualPayment": 55,
+    "effectiveMonthlyCost": 55,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "600GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-4",
+    "brandId": "yifan",
+    "name": "一翻云·极致版",
+    "billingCycle": "月付",
+    "actualPayment": 95,
+    "effectiveMonthlyCost": 95,
+    "trafficGB": 1.2,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1.2TB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-5",
+    "brandId": "yifan",
+    "name": "一翻云·98¥·年付小包",
+    "billingCycle": "年付",
+    "actualPayment": 98,
+    "effectiveMonthlyCost": 8.17,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-6",
+    "brandId": "yifan",
+    "name": "一翻云·轻享版·不限时包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-7",
+    "brandId": "yifan",
+    "name": "一翻云·舒享版·不限时包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 200,
+    "effectiveMonthlyCost": 200,
+    "trafficGB": 250,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "250GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "yifan-plan-8",
+    "brandId": "yifan",
+    "name": "一翻云·尊享版·不限时包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 400,
+    "effectiveMonthlyCost": 400,
+    "trafficGB": 500,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "500GB",
+      "BGP 中继隧道 / 专线混合"
+    ]
+  },
+  {
+    "id": "sogo-plan-1",
+    "brandId": "sogo",
+    "name": "SOGO 云·小包-年付版",
+    "billingCycle": "年付",
+    "actualPayment": 98,
+    "effectiveMonthlyCost": 8.17,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-2",
+    "brandId": "sogo",
+    "name": "SOGO 云·基础版",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-3",
+    "brandId": "sogo",
+    "name": "SOGO 云·优选版",
+    "billingCycle": "月付",
+    "actualPayment": 45,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 350,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "350GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-4",
+    "brandId": "sogo",
+    "name": "SOGO 云·强化版",
+    "billingCycle": "月付",
+    "actualPayment": 80,
+    "effectiveMonthlyCost": 80,
+    "trafficGB": 550,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "550GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-5",
+    "brandId": "sogo",
+    "name": "SOGO 云·顶配版",
+    "billingCycle": "月付",
+    "actualPayment": 150,
+    "effectiveMonthlyCost": 150,
+    "trafficGB": 1.1,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1.1TB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-6",
+    "brandId": "sogo",
+    "name": "SOGO 云·SOGO基础餐不限时版",
+    "billingCycle": "一次性付费",
+    "actualPayment": 120,
+    "effectiveMonthlyCost": 120,
+    "trafficGB": 120,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "120GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-7",
+    "brandId": "sogo",
+    "name": "SOGO 云·SOGO优选餐不限时版",
+    "billingCycle": "一次性付费",
+    "actualPayment": 220,
+    "effectiveMonthlyCost": 220,
+    "trafficGB": 250,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "250GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-8",
+    "brandId": "sogo",
+    "name": "SOGO 云·SOGO强化餐不限时版",
+    "billingCycle": "一次性付费",
+    "actualPayment": 450,
+    "effectiveMonthlyCost": 450,
+    "trafficGB": 500,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "500GB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "sogo-plan-9",
+    "brandId": "sogo",
+    "name": "SOGO 云·SOGO至尊餐不限时版",
+    "billingCycle": "一次性付费",
+    "actualPayment": 850,
+    "effectiveMonthlyCost": 850,
+    "trafficGB": 1,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "1.0TB",
+      "优质 BGP 跨境网络"
+    ]
+  },
+  {
+    "id": "kexin-plan-default",
+    "brandId": "kexin",
+    "name": "可信云·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 22.5,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "sujie-plan-default",
+    "brandId": "sujie",
+    "name": "速界·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 22.5,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "shanyue-plan-1",
+    "brandId": "shanyue",
+    "name": "闪跃·闪跃年付版",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "shanyue-plan-2",
+    "brandId": "shanyue",
+    "name": "闪跃·闪动 (Flicker)",
+    "billingCycle": "月付",
+    "actualPayment": 24,
+    "effectiveMonthlyCost": 24,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "shanyue-plan-3",
+    "brandId": "shanyue",
+    "name": "闪跃·飞跃 (Leap)",
+    "billingCycle": "月付",
+    "actualPayment": 44,
+    "effectiveMonthlyCost": 44,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "shanyue-plan-4",
+    "brandId": "shanyue",
+    "name": "闪跃·瞬移 (Teleport)",
+    "billingCycle": "月付",
+    "actualPayment": 84,
+    "effectiveMonthlyCost": 84,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "600GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "shanyue-plan-5",
+    "brandId": "shanyue",
+    "name": "闪跃·跃迁 (Warp)",
+    "billingCycle": "月付",
+    "actualPayment": 134,
+    "effectiveMonthlyCost": 134,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-1",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·不限时轻量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 100,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "100GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-2",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·不限时标准包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 360,
+    "effectiveMonthlyCost": 360,
+    "trafficGB": 400,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "400GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-3",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·不限时大容量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 700,
+    "effectiveMonthlyCost": 700,
+    "trafficGB": 800,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "800GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-4",
+    "brandId": "quanqiu",
+    "name": "全球云·轻量版",
+    "billingCycle": "年付",
+    "actualPayment": 99,
+    "effectiveMonthlyCost": 8.25,
+    "trafficGB": 59,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "59GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-5",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·入门方案",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "120GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-6",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·进阶方案",
+    "billingCycle": "月付",
+    "actualPayment": 40,
+    "effectiveMonthlyCost": 40,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-7",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·高端方案",
+    "billingCycle": "月付",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "700GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-8",
+    "brandId": "quanqiu",
+    "name": "全球云·BGP 智能优化·商业方案",
+    "billingCycle": "月付",
+    "actualPayment": 180,
+    "effectiveMonthlyCost": 180,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1500GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "quanqiu-plan-9",
+    "brandId": "quanqiu",
+    "name": "全球云·独享私人专线节点",
+    "billingCycle": "月付",
+    "actualPayment": 680,
+    "effectiveMonthlyCost": 680,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "shandianshu-plan-default",
+    "brandId": "shandianshu",
+    "name": "闪电鼠·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 8.399999999999999,
+    "effectiveMonthlyCost": 5.6,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "yunjiexian-plan-default",
+    "brandId": "yunjiexian",
+    "name": "云界线·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 8.399999999999999,
+    "effectiveMonthlyCost": 5.6,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "liulianyun-plan-default",
+    "brandId": "liulianyun",
+    "name": "榴莲云·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 8.399999999999999,
+    "effectiveMonthlyCost": 5.6,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "shenxing-plan-default",
+    "brandId": "shenxing",
+    "name": "神行加速·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 22.5,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "huanqiuti-plan-default",
+    "brandId": "huanqiuti",
+    "name": "环球梯·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 8.399999999999999,
+    "effectiveMonthlyCost": 5.6,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-1",
+    "brandId": "yinxingren",
+    "name": "隐形人·隐形人 白银纪元",
+    "billingCycle": "月付",
+    "actualPayment": 24,
+    "effectiveMonthlyCost": 24,
+    "trafficGB": 144,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "144GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-2",
+    "brandId": "yinxingren",
+    "name": "隐形人·隐形人 黄金序列",
+    "billingCycle": "月付",
+    "actualPayment": 48,
+    "effectiveMonthlyCost": 48,
+    "trafficGB": 360,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "360GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-3",
+    "brandId": "yinxingren",
+    "name": "隐形人·隐形人 铂金至臻",
+    "billingCycle": "月付",
+    "actualPayment": 105,
+    "effectiveMonthlyCost": 105,
+    "trafficGB": 750,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "750GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-4",
+    "brandId": "yinxingren",
+    "name": "隐形人·隐形人 钻石穹顶",
+    "billingCycle": "月付",
+    "actualPayment": 185,
+    "effectiveMonthlyCost": 185,
+    "trafficGB": 1.6,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1.6TB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-5",
+    "brandId": "yinxingren",
+    "name": "隐形人·王者定制版",
+    "billingCycle": "月付",
+    "actualPayment": 680,
+    "effectiveMonthlyCost": 680,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-6",
+    "brandId": "yinxingren",
+    "name": "隐形人·星耀风暴 365天不熄",
+    "billingCycle": "年付",
+    "actualPayment": 109,
+    "effectiveMonthlyCost": 9.08,
+    "trafficGB": 80,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "80GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-7",
+    "brandId": "yinxingren",
+    "name": "隐形人·一次性小流量",
+    "billingCycle": "一次性付费",
+    "actualPayment": 229,
+    "effectiveMonthlyCost": 229,
+    "trafficGB": 160,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "160GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-8",
+    "brandId": "yinxingren",
+    "name": "隐形人·一次性标准流量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 549,
+    "effectiveMonthlyCost": 549,
+    "trafficGB": 420,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "420GB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "yinxingren-plan-9",
+    "brandId": "yinxingren",
+    "name": "隐形人·一次性精英流量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 1199,
+    "effectiveMonthlyCost": 1199,
+    "trafficGB": 1,
+    "trafficReset": "一次性",
+    "features": [
+      "一次性付费",
+      "1.0TB",
+      "全 IPLC 专线"
+    ]
+  },
+  {
+    "id": "tiziyun-plan-default",
+    "brandId": "tiziyun",
+    "name": "梯子云·基础标准版",
+    "billingCycle": "月付",
+    "actualPayment": 22.5,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月重置",
+    "features": [
+      "高速专线",
+      "不限设备",
+      "流媒体优化"
+    ]
+  },
+  {
+    "id": "wgetcloud-plan-1",
+    "brandId": "wgetcloud",
+    "name": "WgetCloud·基础专线服务",
+    "billingCycle": "季付",
+    "actualPayment": 297,
+    "effectiveMonthlyCost": 99,
+    "trafficGB": 230,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "230GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "wgetcloud-plan-2",
+    "brandId": "wgetcloud",
+    "name": "WgetCloud·优质专线服务",
+    "billingCycle": "季付",
+    "actualPayment": 327,
+    "effectiveMonthlyCost": 109,
+    "trafficGB": 250,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "250GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "wgetcloud-plan-3",
+    "brandId": "wgetcloud",
+    "name": "WgetCloud·精品专线服务",
+    "billingCycle": "季付",
+    "actualPayment": 357,
+    "effectiveMonthlyCost": 119,
+    "trafficGB": 270,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "270GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "baiyueguang-plan-1",
+    "brandId": "baiyueguang",
+    "name": "白月光·小包",
+    "billingCycle": "季付",
+    "actualPayment": 66,
+    "effectiveMonthlyCost": 22,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "每月100GB高速流量",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "baiyueguang-plan-2",
+    "brandId": "baiyueguang",
+    "name": "白月光·中包",
+    "billingCycle": "季付",
+    "actualPayment": 126,
+    "effectiveMonthlyCost": 42,
+    "trafficGB": 250,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "每月250GB高速流量",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "baiyueguang-plan-3",
+    "brandId": "baiyueguang",
+    "name": "白月光·大包",
+    "billingCycle": "季付",
+    "actualPayment": 156,
+    "effectiveMonthlyCost": 52,
+    "trafficGB": 400,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "每月400GB高速流量",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "baiyueguang-plan-4",
+    "brandId": "baiyueguang",
+    "name": "白月光·超大包",
+    "billingCycle": "季付",
+    "actualPayment": 216,
+    "effectiveMonthlyCost": 72,
+    "trafficGB": 750,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "每月750GB高速流量",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "baiyueguang-plan-5",
+    "brandId": "baiyueguang",
+    "name": "白月光·不差钱",
+    "billingCycle": "季付",
+    "actualPayment": 231,
+    "effectiveMonthlyCost": 77,
+    "trafficGB": 900,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "每月900GB高速流量",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "baiyueguang-plan-6",
+    "brandId": "baiyueguang",
+    "name": "白月光·旗舰包",
+    "billingCycle": "年付",
+    "actualPayment": 2500,
+    "effectiveMonthlyCost": 208.33,
+    "trafficGB": 2500,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "每月2500GB超大流量",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-1",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·青铜套餐",
+    "billingCycle": "月付",
+    "actualPayment": 15,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-2",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·青铜套餐",
+    "billingCycle": "季付",
+    "actualPayment": 41,
+    "effectiveMonthlyCost": 13.67,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-3",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·青铜套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 77,
+    "effectiveMonthlyCost": 6.42,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-4",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·青铜套餐",
+    "billingCycle": "年付",
+    "actualPayment": 144,
+    "effectiveMonthlyCost": 12,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-5",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·白银套餐",
+    "billingCycle": "月付",
+    "actualPayment": 30,
+    "effectiveMonthlyCost": 30,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-6",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·白银套餐",
+    "billingCycle": "季付",
+    "actualPayment": 81,
+    "effectiveMonthlyCost": 27,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-7",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·白银套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 153,
+    "effectiveMonthlyCost": 12.75,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-8",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·白银套餐",
+    "billingCycle": "年付",
+    "actualPayment": 288,
+    "effectiveMonthlyCost": 24,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-9",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·黄金套餐",
+    "billingCycle": "月付",
+    "actualPayment": 75,
+    "effectiveMonthlyCost": 75,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-10",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·黄金套餐",
+    "billingCycle": "季付",
+    "actualPayment": 203,
+    "effectiveMonthlyCost": 67.67,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-11",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·黄金套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 383,
+    "effectiveMonthlyCost": 31.92,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-12",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·黄金套餐",
+    "billingCycle": "年付",
+    "actualPayment": 720,
+    "effectiveMonthlyCost": 60,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-13",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·钻石套餐",
+    "billingCycle": "月付",
+    "actualPayment": 150,
+    "effectiveMonthlyCost": 150,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-14",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·钻石套餐",
+    "billingCycle": "季付",
+    "actualPayment": 405,
+    "effectiveMonthlyCost": 135,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-15",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·钻石套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 765,
+    "effectiveMonthlyCost": 63.75,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "flyingbird-plan-16",
+    "brandId": "flyingbird",
+    "name": "FlyingBird·钻石套餐",
+    "billingCycle": "年付",
+    "actualPayment": 1440,
+    "effectiveMonthlyCost": 120,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "cyberguard-plan-1",
+    "brandId": "cyberguard",
+    "name": "CyberGuard·150G｜轻量套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 95,
+    "effectiveMonthlyCost": 7.92,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "150GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "cyberguard-plan-2",
+    "brandId": "cyberguard",
+    "name": "CyberGuard·350G｜标准套餐",
+    "billingCycle": "月付",
+    "actualPayment": 32,
+    "effectiveMonthlyCost": 32,
+    "trafficGB": 350,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "350GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "cyberguard-plan-3",
+    "brandId": "cyberguard",
+    "name": "CyberGuard·650G｜高速套餐",
+    "billingCycle": "月付",
+    "actualPayment": 55,
+    "effectiveMonthlyCost": 55,
+    "trafficGB": 650,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "650GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "cyberguard-plan-4",
+    "brandId": "cyberguard",
+    "name": "CyberGuard·220G流量包｜不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 79,
+    "effectiveMonthlyCost": 79,
+    "trafficGB": 220,
+    "trafficReset": "一次性（具体有效期待核实）",
+    "features": [
+      "一次性付费",
+      "220GB",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "cyberguard-plan-5",
+    "brandId": "cyberguard",
+    "name": "CyberGuard·840G流量包｜不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 188,
+    "effectiveMonthlyCost": 188,
+    "trafficGB": 840,
+    "trafficReset": "一次性（具体有效期待核实）",
+    "features": [
+      "一次性付费",
+      "840GB",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "cyberguard-plan-6",
+    "brandId": "cyberguard",
+    "name": "CyberGuard·2050G｜企业套餐",
+    "billingCycle": "月付",
+    "actualPayment": 200,
+    "effectiveMonthlyCost": 200,
+    "trafficGB": 2050,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "2050GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-1",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP1",
+    "billingCycle": "月付",
+    "actualPayment": 15,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-2",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP1",
+    "billingCycle": "季付",
+    "actualPayment": 41,
+    "effectiveMonthlyCost": 13.67,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-3",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP1",
+    "billingCycle": "半年付",
+    "actualPayment": 77,
+    "effectiveMonthlyCost": 6.42,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-4",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP1",
+    "billingCycle": "年付",
+    "actualPayment": 144,
+    "effectiveMonthlyCost": 12,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-5",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP2",
+    "billingCycle": "月付",
+    "actualPayment": 30,
+    "effectiveMonthlyCost": 30,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-6",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP2",
+    "billingCycle": "季付",
+    "actualPayment": 81,
+    "effectiveMonthlyCost": 27,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-7",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP2",
+    "billingCycle": "半年付",
+    "actualPayment": 153,
+    "effectiveMonthlyCost": 12.75,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-8",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP2",
+    "billingCycle": "年付",
+    "actualPayment": 288,
+    "effectiveMonthlyCost": 24,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "200G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-9",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP3",
+    "billingCycle": "月付",
+    "actualPayment": 60,
+    "effectiveMonthlyCost": 60,
+    "trafficGB": 400,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "400G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-10",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP3",
+    "billingCycle": "季付",
+    "actualPayment": 162,
+    "effectiveMonthlyCost": 54,
+    "trafficGB": 400,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "400G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-11",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP3",
+    "billingCycle": "半年付",
+    "actualPayment": 306,
+    "effectiveMonthlyCost": 25.5,
+    "trafficGB": 400,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "400G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-12",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP3",
+    "billingCycle": "年付",
+    "actualPayment": 576,
+    "effectiveMonthlyCost": 48,
+    "trafficGB": 400,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "400G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-13",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP4",
+    "billingCycle": "月付",
+    "actualPayment": 120,
+    "effectiveMonthlyCost": 120,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-14",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP4",
+    "billingCycle": "季付",
+    "actualPayment": 324,
+    "effectiveMonthlyCost": 108,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-15",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP4",
+    "billingCycle": "半年付",
+    "actualPayment": 697,
+    "effectiveMonthlyCost": 58.08,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "totoro-plan-16",
+    "brandId": "totoro",
+    "name": "龙猫云·VIP4",
+    "billingCycle": "年付",
+    "actualPayment": 1152,
+    "effectiveMonthlyCost": 96,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-1",
+    "brandId": "fatcat",
+    "name": "FATCAT·年付加强版",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-2",
+    "brandId": "fatcat",
+    "name": "FATCAT·基础套餐",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-3",
+    "brandId": "fatcat",
+    "name": "FATCAT·基础套餐",
+    "billingCycle": "季付",
+    "actualPayment": 54,
+    "effectiveMonthlyCost": 18,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-4",
+    "brandId": "fatcat",
+    "name": "FATCAT·基础套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 102,
+    "effectiveMonthlyCost": 8.5,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-5",
+    "brandId": "fatcat",
+    "name": "FATCAT·基础套餐",
+    "billingCycle": "年付",
+    "actualPayment": 192,
+    "effectiveMonthlyCost": 16,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-6",
+    "brandId": "fatcat",
+    "name": "FATCAT·标准套餐",
+    "billingCycle": "月付",
+    "actualPayment": 40,
+    "effectiveMonthlyCost": 40,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-7",
+    "brandId": "fatcat",
+    "name": "FATCAT·标准套餐",
+    "billingCycle": "季付",
+    "actualPayment": 108,
+    "effectiveMonthlyCost": 36,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-8",
+    "brandId": "fatcat",
+    "name": "FATCAT·标准套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 204,
+    "effectiveMonthlyCost": 17,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-9",
+    "brandId": "fatcat",
+    "name": "FATCAT·标准套餐",
+    "billingCycle": "年付",
+    "actualPayment": 384,
+    "effectiveMonthlyCost": 32,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-10",
+    "brandId": "fatcat",
+    "name": "FATCAT·旗舰套餐",
+    "billingCycle": "月付",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "700G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-11",
+    "brandId": "fatcat",
+    "name": "FATCAT·旗舰套餐",
+    "billingCycle": "季付",
+    "actualPayment": 270,
+    "effectiveMonthlyCost": 90,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "700G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-12",
+    "brandId": "fatcat",
+    "name": "FATCAT·旗舰套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 510,
+    "effectiveMonthlyCost": 42.5,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "700G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-13",
+    "brandId": "fatcat",
+    "name": "FATCAT·旗舰套餐",
+    "billingCycle": "年付",
+    "actualPayment": 960,
+    "effectiveMonthlyCost": 80,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "700G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-14",
+    "brandId": "fatcat",
+    "name": "FATCAT·企业套餐",
+    "billingCycle": "月付",
+    "actualPayment": 180,
+    "effectiveMonthlyCost": 180,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-15",
+    "brandId": "fatcat",
+    "name": "FATCAT·企业套餐",
+    "billingCycle": "季付",
+    "actualPayment": 486,
+    "effectiveMonthlyCost": 162,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-16",
+    "brandId": "fatcat",
+    "name": "FATCAT·企业套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 918,
+    "effectiveMonthlyCost": 76.5,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "fatcat-plan-17",
+    "brandId": "fatcat",
+    "name": "FATCAT·企业套餐",
+    "billingCycle": "年付",
+    "actualPayment": 1728,
+    "effectiveMonthlyCost": 144,
+    "trafficGB": 1500,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-1",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·轻量包",
+    "billingCycle": "季付",
+    "actualPayment": 30,
+    "effectiveMonthlyCost": 10,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "60G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-2",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·轻量包",
+    "billingCycle": "半年付",
+    "actualPayment": 56,
+    "effectiveMonthlyCost": 4.67,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "60G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-3",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·轻量包",
+    "billingCycle": "年付",
+    "actualPayment": 98,
+    "effectiveMonthlyCost": 8.17,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-4",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP1",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 110,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "110G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-5",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP1",
+    "billingCycle": "季付",
+    "actualPayment": 54,
+    "effectiveMonthlyCost": 18,
+    "trafficGB": 110,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "110G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-6",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP1",
+    "billingCycle": "半年付",
+    "actualPayment": 102,
+    "effectiveMonthlyCost": 8.5,
+    "trafficGB": 110,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "110G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-7",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP1",
+    "billingCycle": "年付",
+    "actualPayment": 192,
+    "effectiveMonthlyCost": 16,
+    "trafficGB": 110,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "110G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-8",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP2",
+    "billingCycle": "月付",
+    "actualPayment": 40,
+    "effectiveMonthlyCost": 40,
+    "trafficGB": 220,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "220G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-9",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP2",
+    "billingCycle": "季付",
+    "actualPayment": 108,
+    "effectiveMonthlyCost": 36,
+    "trafficGB": 220,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "220G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-10",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP2",
+    "billingCycle": "半年付",
+    "actualPayment": 204,
+    "effectiveMonthlyCost": 17,
+    "trafficGB": 220,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "220G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-11",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP2",
+    "billingCycle": "年付",
+    "actualPayment": 336,
+    "effectiveMonthlyCost": 28,
+    "trafficGB": 220,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "220G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-12",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP3",
+    "billingCycle": "月付",
+    "actualPayment": 80,
+    "effectiveMonthlyCost": 80,
+    "trafficGB": 460,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "460G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-13",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP3",
+    "billingCycle": "季付",
+    "actualPayment": 216,
+    "effectiveMonthlyCost": 72,
+    "trafficGB": 460,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "460G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-14",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP3",
+    "billingCycle": "半年付",
+    "actualPayment": 408,
+    "effectiveMonthlyCost": 34,
+    "trafficGB": 460,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "460G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-15",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP3",
+    "billingCycle": "年付",
+    "actualPayment": 768,
+    "effectiveMonthlyCost": 64,
+    "trafficGB": 460,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "460G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-16",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP4",
+    "billingCycle": "月付",
+    "actualPayment": 160,
+    "effectiveMonthlyCost": 160,
+    "trafficGB": 1100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-17",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP4",
+    "billingCycle": "季付",
+    "actualPayment": 432,
+    "effectiveMonthlyCost": 144,
+    "trafficGB": 1100,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-18",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP4",
+    "billingCycle": "半年付",
+    "actualPayment": 816,
+    "effectiveMonthlyCost": 68,
+    "trafficGB": 1100,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "tntcloud-plan-19",
+    "brandId": "tntcloud",
+    "name": "TNTCloud·VIP4",
+    "billingCycle": "年付",
+    "actualPayment": 1536,
+    "effectiveMonthlyCost": 128,
+    "trafficGB": 1100,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-1",
+    "brandId": "qingyunti",
+    "name": "青云梯·年付小包",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-2",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP1",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-3",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP1",
+    "billingCycle": "季付",
+    "actualPayment": 67,
+    "effectiveMonthlyCost": 22.33,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "150G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-4",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP1",
+    "billingCycle": "半年付",
+    "actualPayment": 127,
+    "effectiveMonthlyCost": 10.58,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "150G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-5",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP1",
+    "billingCycle": "年付",
+    "actualPayment": 240,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "150G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-6",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP2",
+    "billingCycle": "月付",
+    "actualPayment": 45,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-7",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP2",
+    "billingCycle": "季付",
+    "actualPayment": 121,
+    "effectiveMonthlyCost": 40.33,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-8",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP2",
+    "billingCycle": "半年付",
+    "actualPayment": 229,
+    "effectiveMonthlyCost": 19.08,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-9",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP2",
+    "billingCycle": "年付",
+    "actualPayment": 432,
+    "effectiveMonthlyCost": 36,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "300G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-10",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP3",
+    "billingCycle": "月付",
+    "actualPayment": 85,
+    "effectiveMonthlyCost": 85,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "600G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-11",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP3",
+    "billingCycle": "季付",
+    "actualPayment": 229,
+    "effectiveMonthlyCost": 76.33,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "600G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-12",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP3",
+    "billingCycle": "半年付",
+    "actualPayment": 433,
+    "effectiveMonthlyCost": 36.08,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "600G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-13",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP3",
+    "billingCycle": "年付",
+    "actualPayment": 816,
+    "effectiveMonthlyCost": 68,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "600G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-14",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP4",
+    "billingCycle": "月付",
+    "actualPayment": 150,
+    "effectiveMonthlyCost": 150,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-15",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP4",
+    "billingCycle": "季付",
+    "actualPayment": 400,
+    "effectiveMonthlyCost": 133.33,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-16",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP4",
+    "billingCycle": "半年付",
+    "actualPayment": 750,
+    "effectiveMonthlyCost": 62.5,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "qingyunti-plan-17",
+    "brandId": "qingyunti",
+    "name": "青云梯·VIP4",
+    "billingCycle": "年付",
+    "actualPayment": 1360,
+    "effectiveMonthlyCost": 113.33,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "shanshuiyun-plan-1",
+    "brandId": "shanshuiyun",
+    "name": "山水云·64G/轻量套餐",
+    "billingCycle": "年付",
+    "actualPayment": 88,
+    "effectiveMonthlyCost": 7.33,
+    "trafficGB": 64,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "64GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "shanshuiyun-plan-2",
+    "brandId": "shanshuiyun",
+    "name": "山水云·128G/轻量套餐",
+    "billingCycle": "半年付",
+    "actualPayment": 88,
+    "effectiveMonthlyCost": 7.33,
+    "trafficGB": 128,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "128GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "shanshuiyun-plan-3",
+    "brandId": "shanshuiyun",
+    "name": "山水云·256G/轻量套餐",
+    "billingCycle": "季付",
+    "actualPayment": 75,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 256,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "256GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "shanshuiyun-plan-4",
+    "brandId": "shanshuiyun",
+    "name": "山水云·100G/月-琴",
+    "billingCycle": "月付",
+    "actualPayment": 15,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "shanshuiyun-plan-5",
+    "brandId": "shanshuiyun",
+    "name": "山水云·200G/月-棋",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "shanshuiyun-plan-6",
+    "brandId": "shanshuiyun",
+    "name": "山水云·500G/月-书",
+    "billingCycle": "月付",
+    "actualPayment": 50,
+    "effectiveMonthlyCost": 50,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500GB/月",
+      "企业级专线"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-1",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·拂风",
+    "billingCycle": "月付",
+    "actualPayment": 20,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-2",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·拂风",
+    "billingCycle": "季付",
+    "actualPayment": 57,
+    "effectiveMonthlyCost": 19,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "100G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-3",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·拂风",
+    "billingCycle": "半年付",
+    "actualPayment": 108,
+    "effectiveMonthlyCost": 9,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "100G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-4",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·拂风",
+    "billingCycle": "年付",
+    "actualPayment": 204,
+    "effectiveMonthlyCost": 17,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "100G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-5",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·拂风",
+    "billingCycle": "两年付",
+    "actualPayment": 384,
+    "effectiveMonthlyCost": 32,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "100G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-6",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·拂风",
+    "billingCycle": "三年付",
+    "actualPayment": 540,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "100G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-7",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·驭浪",
+    "billingCycle": "月付",
+    "actualPayment": 50,
+    "effectiveMonthlyCost": 50,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-8",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·驭浪",
+    "billingCycle": "季付",
+    "actualPayment": 142.5,
+    "effectiveMonthlyCost": 47.5,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "300G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-9",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·驭浪",
+    "billingCycle": "半年付",
+    "actualPayment": 270,
+    "effectiveMonthlyCost": 22.5,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "300G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-10",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·驭浪",
+    "billingCycle": "年付",
+    "actualPayment": 510,
+    "effectiveMonthlyCost": 42.5,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "300G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-11",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·驭浪",
+    "billingCycle": "两年付",
+    "actualPayment": 960,
+    "effectiveMonthlyCost": 80,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "300G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-12",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·驭浪",
+    "billingCycle": "三年付",
+    "actualPayment": 1350,
+    "effectiveMonthlyCost": 112.5,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "300G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-13",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·破晓",
+    "billingCycle": "月付",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "700G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-14",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·破晓",
+    "billingCycle": "季付",
+    "actualPayment": 285,
+    "effectiveMonthlyCost": 95,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "700G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-15",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·破晓",
+    "billingCycle": "半年付",
+    "actualPayment": 540,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "700G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-16",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·破晓",
+    "billingCycle": "年付",
+    "actualPayment": 1020,
+    "effectiveMonthlyCost": 85,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "700G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-17",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·破晓",
+    "billingCycle": "两年付",
+    "actualPayment": 1920,
+    "effectiveMonthlyCost": 160,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "700G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-18",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·破晓",
+    "billingCycle": "三年付",
+    "actualPayment": 2700,
+    "effectiveMonthlyCost": 225,
+    "trafficGB": 700,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "700G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-19",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·凌霄",
+    "billingCycle": "月付",
+    "actualPayment": 180,
+    "effectiveMonthlyCost": 180,
+    "trafficGB": 1.5,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1.5T/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-20",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·凌霄",
+    "billingCycle": "季付",
+    "actualPayment": 513,
+    "effectiveMonthlyCost": 171,
+    "trafficGB": 1.5,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1.5T/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-21",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·凌霄",
+    "billingCycle": "半年付",
+    "actualPayment": 972,
+    "effectiveMonthlyCost": 81,
+    "trafficGB": 1.5,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1.5T/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-22",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·凌霄",
+    "billingCycle": "年付",
+    "actualPayment": 1836,
+    "effectiveMonthlyCost": 153,
+    "trafficGB": 1.5,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1.5T/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-23",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·凌霄",
+    "billingCycle": "两年付",
+    "actualPayment": 3456,
+    "effectiveMonthlyCost": 288,
+    "trafficGB": 1.5,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "1.5T/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-24",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·凌霄",
+    "billingCycle": "三年付",
+    "actualPayment": 4860,
+    "effectiveMonthlyCost": 405,
+    "trafficGB": 1.5,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "1.5T/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-25",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·穿云",
+    "billingCycle": "年付",
+    "actualPayment": 99,
+    "effectiveMonthlyCost": 8.25,
+    "trafficGB": 70,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "70G/月",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-26",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·闲云（小流量包）",
+    "billingCycle": "一次性付费",
+    "actualPayment": 199,
+    "effectiveMonthlyCost": 199,
+    "trafficGB": 150,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-27",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·惊云（标准流量包）",
+    "billingCycle": "一次性付费",
+    "actualPayment": 499,
+    "effectiveMonthlyCost": 499,
+    "trafficGB": 400,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "400G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-28",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动·飞云（精英流量包）",
+    "billingCycle": "一次性付费",
+    "actualPayment": 899,
+    "effectiveMonthlyCost": 899,
+    "trafficGB": 800,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lingdongyun-plan-29",
+    "brandId": "lingdongyun",
+    "name": "灵动云·灵动云·至尊私人定制",
+    "billingCycle": "月付",
+    "actualPayment": 620,
+    "effectiveMonthlyCost": 620,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "截图遮挡",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-1",
+    "brandId": "langwang",
+    "name": "浪网·浪网 高端",
+    "billingCycle": "月付",
+    "actualPayment": 120,
+    "effectiveMonthlyCost": 120,
+    "trafficGB": 800,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-2",
+    "brandId": "langwang",
+    "name": "浪网·浪网 高端",
+    "billingCycle": "季付",
+    "actualPayment": 342,
+    "effectiveMonthlyCost": 114,
+    "trafficGB": 800,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-3",
+    "brandId": "langwang",
+    "name": "浪网·浪网 高端",
+    "billingCycle": "半年付",
+    "actualPayment": 648,
+    "effectiveMonthlyCost": 54,
+    "trafficGB": 800,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-4",
+    "brandId": "langwang",
+    "name": "浪网·浪网 高端",
+    "billingCycle": "年付",
+    "actualPayment": 1224,
+    "effectiveMonthlyCost": 102,
+    "trafficGB": 800,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-5",
+    "brandId": "langwang",
+    "name": "浪网·浪网 高端",
+    "billingCycle": "两年付",
+    "actualPayment": 2304,
+    "effectiveMonthlyCost": 192,
+    "trafficGB": 800,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-6",
+    "brandId": "langwang",
+    "name": "浪网·浪网 高端",
+    "billingCycle": "三年付",
+    "actualPayment": 3240,
+    "effectiveMonthlyCost": 270,
+    "trafficGB": 800,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "800G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-7",
+    "brandId": "langwang",
+    "name": "浪网·浪网 商业",
+    "billingCycle": "月付",
+    "actualPayment": 200,
+    "effectiveMonthlyCost": 200,
+    "trafficGB": 2000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "2000G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-8",
+    "brandId": "langwang",
+    "name": "浪网·浪网 商业",
+    "billingCycle": "季付",
+    "actualPayment": 570,
+    "effectiveMonthlyCost": 190,
+    "trafficGB": 2000,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "2000G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-9",
+    "brandId": "langwang",
+    "name": "浪网·浪网 商业",
+    "billingCycle": "半年付",
+    "actualPayment": 1080,
+    "effectiveMonthlyCost": 90,
+    "trafficGB": 2000,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "2000G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-10",
+    "brandId": "langwang",
+    "name": "浪网·浪网 商业",
+    "billingCycle": "年付",
+    "actualPayment": 2040,
+    "effectiveMonthlyCost": 170,
+    "trafficGB": 2000,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "2000G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-11",
+    "brandId": "langwang",
+    "name": "浪网·浪网 商业",
+    "billingCycle": "两年付",
+    "actualPayment": 3840,
+    "effectiveMonthlyCost": 320,
+    "trafficGB": 2000,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "2000G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-12",
+    "brandId": "langwang",
+    "name": "浪网·浪网 商业",
+    "billingCycle": "三年付",
+    "actualPayment": 5400,
+    "effectiveMonthlyCost": 450,
+    "trafficGB": 2000,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "2000G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-13",
+    "brandId": "langwang",
+    "name": "浪网·浪网 年付标准",
+    "billingCycle": "年付",
+    "actualPayment": 119,
+    "effectiveMonthlyCost": 9.92,
+    "trafficGB": 80,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "80G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-14",
+    "brandId": "langwang",
+    "name": "浪网·浪网 小流量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 239,
+    "effectiveMonthlyCost": 239,
+    "trafficGB": 180,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "180G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-15",
+    "brandId": "langwang",
+    "name": "浪网·浪网 标准流量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 569,
+    "effectiveMonthlyCost": 569,
+    "trafficGB": 450,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-16",
+    "brandId": "langwang",
+    "name": "浪网·浪网 定制线路包",
+    "billingCycle": "月付",
+    "actualPayment": 640,
+    "effectiveMonthlyCost": 640,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-17",
+    "brandId": "langwang",
+    "name": "浪网·浪网 精英流量包",
+    "billingCycle": "一次性付费",
+    "actualPayment": 1099,
+    "effectiveMonthlyCost": 1099,
+    "trafficGB": 900,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "900G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-18",
+    "brandId": "langwang",
+    "name": "浪网·浪网 进阶",
+    "billingCycle": "月付",
+    "actualPayment": 70,
+    "effectiveMonthlyCost": 70,
+    "trafficGB": 450,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-19",
+    "brandId": "langwang",
+    "name": "浪网·浪网 进阶",
+    "billingCycle": "季付",
+    "actualPayment": 199.5,
+    "effectiveMonthlyCost": 66.5,
+    "trafficGB": 450,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-20",
+    "brandId": "langwang",
+    "name": "浪网·浪网 进阶",
+    "billingCycle": "半年付",
+    "actualPayment": 378,
+    "effectiveMonthlyCost": 31.5,
+    "trafficGB": 450,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-21",
+    "brandId": "langwang",
+    "name": "浪网·浪网 进阶",
+    "billingCycle": "年付",
+    "actualPayment": 714,
+    "effectiveMonthlyCost": 59.5,
+    "trafficGB": 450,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-22",
+    "brandId": "langwang",
+    "name": "浪网·浪网 进阶",
+    "billingCycle": "两年付",
+    "actualPayment": 1344,
+    "effectiveMonthlyCost": 112,
+    "trafficGB": 450,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-23",
+    "brandId": "langwang",
+    "name": "浪网·浪网 进阶",
+    "billingCycle": "三年付",
+    "actualPayment": 1890,
+    "effectiveMonthlyCost": 157.5,
+    "trafficGB": 450,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "450G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-24",
+    "brandId": "langwang",
+    "name": "浪网·浪网 入门",
+    "billingCycle": "月付",
+    "actualPayment": 30,
+    "effectiveMonthlyCost": 30,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "截150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-25",
+    "brandId": "langwang",
+    "name": "浪网·浪网 入门",
+    "billingCycle": "季付",
+    "actualPayment": 85.5,
+    "effectiveMonthlyCost": 28.5,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "截150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-26",
+    "brandId": "langwang",
+    "name": "浪网·浪网 入门",
+    "billingCycle": "半年付",
+    "actualPayment": 162,
+    "effectiveMonthlyCost": 13.5,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "截150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-27",
+    "brandId": "langwang",
+    "name": "浪网·浪网 入门",
+    "billingCycle": "年付",
+    "actualPayment": 306,
+    "effectiveMonthlyCost": 25.5,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "截150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-28",
+    "brandId": "langwang",
+    "name": "浪网·浪网 入门",
+    "billingCycle": "两年付",
+    "actualPayment": 576,
+    "effectiveMonthlyCost": 48,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "截150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "langwang-plan-29",
+    "brandId": "langwang",
+    "name": "浪网·浪网 入门",
+    "billingCycle": "三年付",
+    "actualPayment": 810,
+    "effectiveMonthlyCost": 67.5,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "截150G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "edgenova-plan-1",
+    "brandId": "edgenova",
+    "name": "EdgeNova·限时月付",
+    "billingCycle": "月付",
+    "actualPayment": 15,
+    "effectiveMonthlyCost": 15,
+    "trafficGB": 72,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "72G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-2",
+    "brandId": "edgenova",
+    "name": "EdgeNova·限时年付",
+    "billingCycle": "年付",
+    "actualPayment": 108,
+    "effectiveMonthlyCost": 9,
+    "trafficGB": 45,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "45G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-3",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·标准",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-4",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·标准",
+    "billingCycle": "季付",
+    "actualPayment": 70,
+    "effectiveMonthlyCost": 23.33,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-5",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·标准",
+    "billingCycle": "半年付",
+    "actualPayment": 130,
+    "effectiveMonthlyCost": 10.83,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-6",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·标准",
+    "billingCycle": "年付",
+    "actualPayment": 270,
+    "effectiveMonthlyCost": 22.5,
+    "trafficGB": 120,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "120G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-7",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·进阶",
+    "billingCycle": "月付",
+    "actualPayment": 50,
+    "effectiveMonthlyCost": 50,
+    "trafficGB": 250,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "250G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-8",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·进阶",
+    "billingCycle": "季付",
+    "actualPayment": 145,
+    "effectiveMonthlyCost": 48.33,
+    "trafficGB": 250,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "250G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-9",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·进阶",
+    "billingCycle": "半年付",
+    "actualPayment": 280,
+    "effectiveMonthlyCost": 23.33,
+    "trafficGB": 250,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "250G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-10",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·进阶",
+    "billingCycle": "年付",
+    "actualPayment": 570,
+    "effectiveMonthlyCost": 47.5,
+    "trafficGB": 250,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "250G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-11",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·高级",
+    "billingCycle": "月付",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-12",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·高级",
+    "billingCycle": "季付",
+    "actualPayment": 290,
+    "effectiveMonthlyCost": 96.67,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-13",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·高级",
+    "billingCycle": "半年付",
+    "actualPayment": 580,
+    "effectiveMonthlyCost": 48.33,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-14",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·高级",
+    "billingCycle": "年付",
+    "actualPayment": 1100,
+    "effectiveMonthlyCost": 91.67,
+    "trafficGB": 500,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "500G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-15",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·极限",
+    "billingCycle": "月付",
+    "actualPayment": 200,
+    "effectiveMonthlyCost": 200,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-16",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·极限",
+    "billingCycle": "季付",
+    "actualPayment": 580,
+    "effectiveMonthlyCost": 193.33,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-17",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·极限",
+    "billingCycle": "半年付",
+    "actualPayment": 1150,
+    "effectiveMonthlyCost": 95.83,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "edgenova-plan-18",
+    "brandId": "edgenova",
+    "name": "EdgeNova·极界·极限",
+    "billingCycle": "年付",
+    "actualPayment": 2300,
+    "effectiveMonthlyCost": 191.67,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1000G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-1",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly年付版",
+    "billingCycle": "年付",
+    "actualPayment": 96,
+    "effectiveMonthlyCost": 8,
+    "trafficGB": 60,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "60G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-2",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Lite",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "150G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-3",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Lite",
+    "billingCycle": "季付",
+    "actualPayment": 67,
+    "effectiveMonthlyCost": 22.33,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "150G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-4",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Lite",
+    "billingCycle": "半年付",
+    "actualPayment": 127,
+    "effectiveMonthlyCost": 10.58,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "150G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-5",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Lite",
+    "billingCycle": "年付",
+    "actualPayment": 240,
+    "effectiveMonthlyCost": 20,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "150G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-6",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Lite",
+    "billingCycle": "两年付",
+    "actualPayment": 420,
+    "effectiveMonthlyCost": 35,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "150G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-7",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Lite",
+    "billingCycle": "三年付",
+    "actualPayment": 540,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 150,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "150G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-8",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Plus",
+    "billingCycle": "月付",
+    "actualPayment": 45,
+    "effectiveMonthlyCost": 45,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-9",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Plus",
+    "billingCycle": "季付",
+    "actualPayment": 121,
+    "effectiveMonthlyCost": 40.33,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "300G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-10",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Plus",
+    "billingCycle": "半年付",
+    "actualPayment": 229,
+    "effectiveMonthlyCost": 19.08,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "300G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-11",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Plus",
+    "billingCycle": "年付",
+    "actualPayment": 432,
+    "effectiveMonthlyCost": 36,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "300G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-12",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Plus",
+    "billingCycle": "两年付",
+    "actualPayment": 756,
+    "effectiveMonthlyCost": 63,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "300G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-13",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Plus",
+    "billingCycle": "三年付",
+    "actualPayment": 972,
+    "effectiveMonthlyCost": 81,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "300G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-14",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Blaze",
+    "billingCycle": "月付",
+    "actualPayment": 85,
+    "effectiveMonthlyCost": 85,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "600G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-15",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Blaze",
+    "billingCycle": "季付",
+    "actualPayment": 229,
+    "effectiveMonthlyCost": 76.33,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "600G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-16",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Blaze",
+    "billingCycle": "半年付",
+    "actualPayment": 433,
+    "effectiveMonthlyCost": 36.08,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "600G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-17",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Blaze",
+    "billingCycle": "年付",
+    "actualPayment": 816,
+    "effectiveMonthlyCost": 68,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "600G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-18",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Blaze",
+    "billingCycle": "两年付",
+    "actualPayment": 1428,
+    "effectiveMonthlyCost": 119,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "600G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-19",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Blaze",
+    "billingCycle": "三年付",
+    "actualPayment": 1836,
+    "effectiveMonthlyCost": 153,
+    "trafficGB": 600,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "600G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-20",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Nova",
+    "billingCycle": "月付",
+    "actualPayment": 150,
+    "effectiveMonthlyCost": 150,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "1000G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-21",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Nova",
+    "billingCycle": "季付",
+    "actualPayment": 400,
+    "effectiveMonthlyCost": 133.33,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "1000G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-22",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Nova",
+    "billingCycle": "半年付",
+    "actualPayment": 750,
+    "effectiveMonthlyCost": 62.5,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "1000G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-23",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Nova",
+    "billingCycle": "年付",
+    "actualPayment": 1360,
+    "effectiveMonthlyCost": 113.33,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "1000G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-24",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Nova",
+    "billingCycle": "两年付",
+    "actualPayment": 2399,
+    "effectiveMonthlyCost": 199.92,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "两年付",
+      "1000G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-25",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly Nova",
+    "billingCycle": "三年付",
+    "actualPayment": 3119,
+    "effectiveMonthlyCost": 259.92,
+    "trafficGB": 1000,
+    "trafficReset": "每月",
+    "features": [
+      "三年付",
+      "1000G/月",
+      "全专线"
+    ]
+  },
+  {
+    "id": "firefly-plan-26",
+    "brandId": "firefly",
+    "name": "萤火虫·Firefly不限时",
+    "billingCycle": "一次性付费",
+    "actualPayment": 100,
+    "effectiveMonthlyCost": 100,
+    "trafficGB": 100,
+    "trafficReset": "一次性（套餐内流量总额）",
+    "features": [
+      "一次性付费",
+      "100G",
+      "全专线"
+    ]
+  },
+  {
+    "id": "sslar-plan-1",
+    "brandId": "sslar",
+    "name": "sslar·Basic",
+    "billingCycle": "月付",
+    "actualPayment": 17,
+    "effectiveMonthlyCost": 17,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "100G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-2",
+    "brandId": "sslar",
+    "name": "sslar·Basic",
+    "billingCycle": "季付",
+    "actualPayment": 46,
+    "effectiveMonthlyCost": 15.33,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "100G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-3",
+    "brandId": "sslar",
+    "name": "sslar·Basic",
+    "billingCycle": "半年付",
+    "actualPayment": 87,
+    "effectiveMonthlyCost": 7.25,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "100G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-4",
+    "brandId": "sslar",
+    "name": "sslar·Basic",
+    "billingCycle": "年付",
+    "actualPayment": 163,
+    "effectiveMonthlyCost": 13.58,
+    "trafficGB": 100,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "100G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-5",
+    "brandId": "sslar",
+    "name": "sslar·Standard",
+    "billingCycle": "月付",
+    "actualPayment": 28,
+    "effectiveMonthlyCost": 28,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "200G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-6",
+    "brandId": "sslar",
+    "name": "sslar·Standard",
+    "billingCycle": "季付",
+    "actualPayment": 76,
+    "effectiveMonthlyCost": 25.33,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "200G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-7",
+    "brandId": "sslar",
+    "name": "sslar·Standard",
+    "billingCycle": "半年付",
+    "actualPayment": 143,
+    "effectiveMonthlyCost": 11.92,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "200G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-8",
+    "brandId": "sslar",
+    "name": "sslar·Standard",
+    "billingCycle": "年付",
+    "actualPayment": 268,
+    "effectiveMonthlyCost": 22.33,
+    "trafficGB": 200,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "200G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-9",
+    "brandId": "sslar",
+    "name": "sslar·Premium",
+    "billingCycle": "月付",
+    "actualPayment": 36,
+    "effectiveMonthlyCost": 36,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "月付",
+      "300G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-10",
+    "brandId": "sslar",
+    "name": "sslar·Premium",
+    "billingCycle": "季付",
+    "actualPayment": 97,
+    "effectiveMonthlyCost": 32.33,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "季付",
+      "300G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-11",
+    "brandId": "sslar",
+    "name": "sslar·Premium",
+    "billingCycle": "半年付",
+    "actualPayment": 183,
+    "effectiveMonthlyCost": 15.25,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "半年付",
+      "300G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "sslar-plan-12",
+    "brandId": "sslar",
+    "name": "sslar·Premium",
+    "billingCycle": "年付",
+    "actualPayment": 345,
+    "effectiveMonthlyCost": 28.75,
+    "trafficGB": 300,
+    "trafficReset": "每月",
+    "features": [
+      "年付",
+      "300G",
+      "企业级"
+    ]
+  },
+  {
+    "id": "lightspeed-snooker-147",
+    "brandId": "lightspeed",
+    "name": "光速云·致敬斯诺克147永久套餐",
+    "billingCycle": "一次性付费 (永久有效)",
+    "actualPayment": 147,
+    "effectiveMonthlyCost": 12.25,
+    "trafficGB": 247,
+    "trafficReset": "一次性永久有效无忧过期",
+    "features": [
+      "247GB永久版",
+      "单节点最高2.5Gbps",
+      "不限设备",
+      "全平台AI与TikTok解锁",
+      "双专线架构"
+    ]
+  },
+  {
+    "id": "lightspeed-lite-99",
+    "brandId": "lightspeed",
+    "name": "光速云·轻量版 (年付特惠)",
+    "billingCycle": "年付",
+    "actualPayment": 99,
+    "effectiveMonthlyCost": 8.25,
+    "trafficGB": 69,
+    "trafficReset": "每月重置",
+    "features": [
+      "优惠码 AMM 折后 ¥8.25/月",
+      "每月69GB",
+      "原生稳定节点",
+      "不限设备",
+      "AI与流媒体全支持"
+    ]
+  },
+  {
+    "id": "lightspeed-speed-25",
+    "brandId": "lightspeed",
+    "name": "光速云·极速版 (单月付主力)",
+    "billingCycle": "月付",
+    "actualPayment": 25,
+    "effectiveMonthlyCost": 25,
+    "trafficGB": 168,
+    "trafficReset": "每月重置",
+    "features": [
+      "全节点 1.0x 无套路",
+      "全球 IPLC 专线",
+      "每月168GB",
+      "最高2.5Gbps速率",
+      "7×24小时运维"
+    ]
+  },
+  {
+    "id": "lightspeed-custom-680",
+    "brandId": "lightspeed",
+    "name": "光速云·企业定制版",
+    "billingCycle": "月付",
+    "actualPayment": 680,
+    "effectiveMonthlyCost": 680,
+    "trafficGB": 500,
+    "trafficReset": "每月重置",
+    "features": [
+      "独享专属原生IP",
+      "独立物理带宽",
+      "全IPLC专线",
+      "按需定制出口",
+      "跨境电商与直播企业首选"
+    ]
+  }
+]
