@@ -1,5 +1,33 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig, type HeadConfig } from 'vitepress';
 import { generateCanonicalAndSchema } from './schema-helper';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// 读取本地 .env 环境配置以支持站长平台验证代码
+const envFilePath = path.resolve(process.cwd(), '.env');
+const envVars: Record<string, string> = {};
+if (fs.existsSync(envFilePath)) {
+  const lines = fs.readFileSync(envFilePath, 'utf8').split('\n');
+  for (const l of lines) {
+    const trimmed = l.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const eqIdx = trimmed.indexOf('=');
+    if (eqIdx !== -1) {
+      envVars[trimmed.slice(0, eqIdx).trim()] = trimmed.slice(eqIdx + 1).trim();
+    }
+  }
+}
+
+const getEnv = (key: string) => process.env[key] || envVars[key] || '';
+
+// 预留搜索引擎站长验证 Meta
+const verificationMetaTags: HeadConfig[] = [
+  ...(getEnv('GOOGLE_SITE_VERIFICATION') ? [['meta', { name: 'google-site-verification', content: getEnv('GOOGLE_SITE_VERIFICATION') }]] as HeadConfig[] : []),
+  ...(getEnv('BING_SITE_VERIFICATION') ? [['meta', { name: 'msvalidate.01', content: getEnv('BING_SITE_VERIFICATION') }]] as HeadConfig[] : []),
+  ...(getEnv('BAIDU_SITE_VERIFICATION') ? [['meta', { name: 'baidu-site-verification', content: getEnv('BAIDU_SITE_VERIFICATION') }]] as HeadConfig[] : []),
+  ...(getEnv('SHENMA_SITE_VERIFICATION') ? [['meta', { name: 'shenma-site-verification', content: getEnv('SHENMA_SITE_VERIFICATION') }]] as HeadConfig[] : []),
+  ...(getEnv('SO_SITE_VERIFICATION') ? [['meta', { name: '360-site-verification', content: getEnv('SO_SITE_VERIFICATION') }]] as HeadConfig[] : [])
+];
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -20,7 +48,8 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'AI机场 - aijichang.blog' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'applicable-device', content: 'pc,mobile' }]
+    ['meta', { name: 'applicable-device', content: 'pc,mobile' }],
+    ...verificationMetaTags
   ],
   themeConfig: {
     siteTitle: 'AI机场',

@@ -14,12 +14,18 @@ export function generateCanonicalAndSchema(pageData: PageData): HeadConfig[] {
 
   const title = pageData.title ? `${pageData.title} | AI机场` : 'AI机场｜AI办公与流媒体网络选购指南';
   const description = pageData.description || '面向使用 ChatGPT、Claude、Gemini 以及 Netflix、Disney+、YouTube、TikTok 的中文用户网络选购指南。';
+  const logoUrl = 'https://aijichang.blog/logos/galaxy_transparent_square.webp';
 
   const head: HeadConfig[] = [
     ['link', { rel: 'canonical', href: canonicalUrl }],
     ['meta', { property: 'og:url', content: canonicalUrl }],
     ['meta', { property: 'og:title', content: title }],
-    ['meta', { property: 'og:description', content: description }]
+    ['meta', { property: 'og:description', content: description }],
+    ['meta', { property: 'og:image', content: logoUrl }],
+    ['meta', { name: 'twitter:image', content: logoUrl }],
+    ['meta', { name: 'author', content: '林越 (Lin Yue)' }],
+    ['meta', { property: 'article:published_time', content: '2026-10-21T08:00:00+08:00' }],
+    ['meta', { property: 'article:modified_time', content: '2026-10-21T16:00:00+08:00' }]
   ];
 
   // 1. BreadcrumbList Schema for all pages
@@ -97,14 +103,14 @@ export function generateCanonicalAndSchema(pageData: PageData): HeadConfig[] {
     ]);
   }
 
-  // 3. Organization schema for /about/
-  if (pageData.relativePath.startsWith('about/')) {
+  // 3. Organization schema for /about/ and homepage
+  if (pageData.relativePath === 'index.md' || pageData.relativePath.startsWith('about/')) {
     const orgSchema = {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'AI机场 - aijichang.blog',
       url: 'https://aijichang.blog',
-      logo: 'https://aijichang.blog/logos/galaxy_transparent_square.webp',
+      logo: logoUrl,
       description: '专注大语言模型与跨境流媒体网络客观实测的技术媒体'
     };
     head.push([
@@ -114,7 +120,43 @@ export function generateCanonicalAndSchema(pageData: PageData): HeadConfig[] {
     ]);
   }
 
-  // 4. TechArticle / Review schema for brand reviews & deep guides
+  // 4. CollectionPage schema for 8 core Hubs & secondary Hubs
+  const hubPaths = [
+    'recommend/index.md',
+    'ai/index.md',
+    'streaming/index.md',
+    'free/index.md',
+    'regions/index.md',
+    'guides/index.md',
+    'tests/index.md',
+    'deals/index.md',
+    'brands/index.md',
+    'clients/index.md',
+    'reviews/index.md'
+  ];
+
+  if (hubPaths.includes(pageData.relativePath)) {
+    const collectionSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      headline: pageData.title || title,
+      url: canonicalUrl,
+      description: description,
+      inLanguage: 'zh-CN',
+      publisher: {
+        '@type': 'Organization',
+        name: 'AI机场',
+        url: 'https://aijichang.blog'
+      }
+    };
+    head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify(collectionSchema)
+    ]);
+  }
+
+  // 5. TechArticle / Review schema for brand reviews & deep guides
   if (pageData.relativePath.startsWith('brands/') || pageData.relativePath.startsWith('reviews/') || pageData.relativePath.startsWith('ai/')) {
     const isBrandReview = pageData.relativePath.startsWith('brands/') || pageData.relativePath.startsWith('reviews/');
     
@@ -125,7 +167,8 @@ export function generateCanonicalAndSchema(pageData: PageData): HeadConfig[] {
       description: description,
       url: canonicalUrl,
       datePublished: '2026-10-21T08:00:00+08:00',
-      dateModified: '2026-10-21T15:30:00+08:00',
+      dateModified: '2026-10-21T16:00:00+08:00',
+      inLanguage: 'zh-CN',
       author: {
         '@type': 'Person',
         name: '林越 (Lin Yue)',
@@ -138,7 +181,7 @@ export function generateCanonicalAndSchema(pageData: PageData): HeadConfig[] {
         url: 'https://aijichang.blog',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://aijichang.blog/logos/galaxy_transparent_square.webp'
+          url: logoUrl
         }
       }
     };
