@@ -16,7 +16,8 @@ const requiredFiles = [
   'products.json',
   'tasks.json',
   'regions.json',
-  'changeLog.json'
+  'changeLog.json',
+  'clients.json'
 ];
 
 let hasErrors = false;
@@ -97,6 +98,16 @@ for (const obs of data['observations.json']) {
   if (!['success', 'partial', 'failure'].includes(outcome)) {
     console.error(`❌ 评测观测 [${obs.id}] 状态 [${outcome}] 非法，必须为 success/partial/failure`);
     hasErrors = true;
+  }
+}
+
+// Verify clients.json
+if (data['clients.json']) {
+  for (const client of data['clients.json']) {
+    if (!client.id || !client.name || !Array.isArray(client.platforms) || !client.downloadUrl) {
+      console.error(`❌ 客户端记录 [${client.id || 'unknown'}] 基础字段缺失`);
+      hasErrors = true;
+    }
   }
 }
 

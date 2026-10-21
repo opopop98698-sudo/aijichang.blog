@@ -14,6 +14,7 @@ import DecisionTree from './components/DecisionTree.vue';
 import FAQBlock from './components/FAQBlock.vue';
 import RelatedLinks from './components/RelatedLinks.vue';
 import InteractiveTools from './components/InteractiveTools.vue';
+import ClientMatrix from './components/ClientMatrix.vue';
 
 export default {
   extends: DefaultTheme,
@@ -31,5 +32,6 @@ export default {
     app.component('FAQBlock', FAQBlock);
     app.component('RelatedLinks', RelatedLinks);
     app.component('InteractiveTools', InteractiveTools);
+    app.component('ClientMatrix', ClientMatrix);
   }
 };

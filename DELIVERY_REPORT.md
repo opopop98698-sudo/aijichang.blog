@@ -40,9 +40,9 @@
 - **单品深度评测专栏**：
   - `/reviews/`（单品实测评测索引专栏）
   - `/reviews/lightspeed/`（**光速云 8,000+ 字旗舰深度拆解长文**：三网拓扑、晚高峰 180 秒持续压测、ChatGPT/Claude 长连接防阻断评测、Netflix/Disney+ 4K 播放实录、3 大在售套餐选型指南）
-- **跨平台客户端指南**：`/clients/`（Clash Verge Rev、Sing-box、Shadowrocket、Surge 等配置规范）
+- **跨平台客户端指南**：`/clients/`（**8,200+ 字全平台旗舰长文**：内置 `ClientMatrix.vue` 交互筛选中心，收录 Windows、Android、iOS、macOS、Linux 与 OpenWrt 软路由 28 款核心客户端，配套官方直链、TUN 虚拟网卡驱动、Fake-IP 模式解析、外区 Apple ID 防锁机安全守则与软路由避坑实战）
 - **7 大交互决策小工具**：`/tools/`（本地运行、零上传、无隐私泄露）
-- **Pagefind 全文检索中心**：`/search/`（毫秒级本地 WASM 全文检索，已索引 61 篇页面、6,630 词汇）
+- **Pagefind 全文检索中心**：`/search/`（毫秒级本地 WASM 全文检索，已索引 61 篇页面、7,063 词汇）
 - **合规与关于我们**：
   - `/about/`（使命愿景与独立宣言）
   - `/methodology/`（四层递进评测方法论白皮书）
@@ -57,13 +57,15 @@
 - `offers.json`：**24 个真实有效优惠码**
 - `links.json`：**32 条合规推广外链**（带 `rel="nofollow sponsored noopener"` 标记）
 - `observations.json`：**18 项四层实测抓包与测速记录**
+- `clients.json`：**28 款跨平台主流代理客户端结构化数据库**（涵盖 6 大操作系统、核心分类、资费属性、安全预警与官方直链）
 - `platforms.json`、`products.json`、`tasks.json`、`regions.json`、`changeLog.json`
 - `CONTENT_MAP.json`：收录 64 专题、128 集群、384 候选标题的完整数据地图
 - `site/public/logos/`：30 个高清矢量与 WebP 品牌徽标
 - `site/public/speedtests/`：**17 张 MAI-TEST-BOT 1122×1402 px 全尺寸高清测速实测大图**
 - `site/public/unlocks/`：**7 张流媒体与 AI 解锁抓包存证大图**
 
-### 4. 11 个高可用 Vue 3 交互组件（`site/.vitepress/theme/components/`）
+### 4. 12 个高可用 Vue 3 交互组件（`site/.vitepress/theme/components/`）
+- `ClientMatrix.vue`：**客户端多维筛选交互工作台**（支持 OS、内核、资费、难度 4 重组合筛选与即时搜索）
 - `BrandCard.vue`：多维筛选品牌卡片流
 - `PlanTable.vue`：首付款 vs 折算月费对比表
 - `PlatformTaskMatrix.vue`：四层任务实测多维筛选看板
