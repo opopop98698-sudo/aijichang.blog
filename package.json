@@ -15,7 +15,9 @@
     "pagefind": "pagefind --site site/.vitepress/dist",
     "audit:dist": "node scripts/audit-dist.mjs",
     "build": "npm run prepare:content && npm run validate:data && npm run validate:content && npm run build:vitepress && npm run finalize:dist && npm run build:search && npm run audit:dist",
-    "preview": "vitepress preview site",
+    "preview": "node scripts/preview-server.mjs",
+    "preview:open": "node scripts/preview-server.mjs --open",
+    "preview:vp": "vitepress preview site",
     "count:words": "node scripts/count-content.mjs"
   },
   "dependencies": {
