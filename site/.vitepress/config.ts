@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { generateCanonicalAndSchema } from './schema-helper';
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -8,6 +9,9 @@ export default defineConfig({
   lastUpdated: true,
   sitemap: {
     hostname: 'https://aijichang.blog'
+  },
+  transformHead({ pageData }) {
+    return generateCanonicalAndSchema(pageData);
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -35,8 +39,10 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '机场品牌库', link: '/brands/' },
+          { text: '单品深度测评', link: '/reviews/' },
           { text: '交互工具箱', link: '/tools/' },
           { text: '站内全文检索', link: '/search/' },
+          { text: '作者与评测团队', link: '/authors/' },
           { text: '四层评测方法', link: '/methodology/' },
           { text: '商业披露与赞助', link: '/disclosure/' },
           { text: '关于本站', link: '/about/' },

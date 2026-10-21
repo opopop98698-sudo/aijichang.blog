@@ -1,0 +1,31 @@
+# ==============================================================================
+# aijichang.blog - Robots Exclusion Protocol
+# ==============================================================================
+
+User-agent: Googlebot
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: Bingbot
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: yisouspider
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: *
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+# 站点地图权威声明
+Sitemap: https://aijichang.blog/sitemap.xml

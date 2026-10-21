@@ -23,22 +23,47 @@ if (fs.existsSync(htaccessSrc)) {
 }
 
 // 2. Generate robots.txt
-const robotsContent = `# ==============================================================================
+const robotsSrc = path.join(rootDir, 'site', 'public', 'robots.txt');
+const robotsDest = path.join(distDir, 'robots.txt');
+if (fs.existsSync(robotsSrc)) {
+  fs.copyFileSync(robotsSrc, robotsDest);
+  console.log('✅ 已同步 site/public/robots.txt 规范文件到 dist 根目录');
+} else {
+  const robotsContent = `# ==============================================================================
 # aijichang.blog - Robots Exclusion Protocol
 # ==============================================================================
 
+User-agent: Googlebot
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: Bingbot
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
+User-agent: yisouspider
+Allow: /
+Disallow: /pagefind/
+Disallow: /*?*
+
 User-agent: *
 Allow: /
-
-# 禁止抓取搜索中间切片与内部缓存
 Disallow: /pagefind/
 Disallow: /*?*
 
 # 站点地图引用
 Sitemap: https://aijichang.blog/sitemap.xml
 `;
-fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsContent, 'utf8');
-console.log('✅ 已生成 robots.txt 规范文件');
+  fs.writeFileSync(robotsDest, robotsContent, 'utf8');
+  console.log('✅ 已生成 robots.txt 规范文件');
+}
 
 // 3. Verify sitemap.xml
 const sitemapPath = path.join(distDir, 'sitemap.xml');

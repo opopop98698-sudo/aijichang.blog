@@ -38,6 +38,8 @@ const requiredPages = [
   'tools/index.html',
   'search/index.html',
   'about/index.html',
+  'authors/index.html',
+  'authors/lin-yue/index.html',
   'methodology/index.html',
   'disclosure/index.html',
   'privacy/index.html',
