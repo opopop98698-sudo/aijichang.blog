@@ -15,6 +15,7 @@ import FAQBlock from './components/FAQBlock.vue';
 import RelatedLinks from './components/RelatedLinks.vue';
 import InteractiveTools from './components/InteractiveTools.vue';
 import ClientMatrix from './components/ClientMatrix.vue';
+import SearchWidget from './components/SearchWidget.vue';
 
 export default {
   extends: DefaultTheme,
@@ -33,5 +34,6 @@ export default {
     app.component('RelatedLinks', RelatedLinks);
     app.component('InteractiveTools', InteractiveTools);
     app.component('ClientMatrix', ClientMatrix);
+    app.component('SearchWidget', SearchWidget);
   }
 };
