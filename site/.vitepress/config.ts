@@ -27,7 +27,7 @@ const verificationMetaTags: HeadConfig[] = [
   ...(getEnv('BAIDU_SITE_VERIFICATION') ? [['meta', { name: 'baidu-site-verification', content: getEnv('BAIDU_SITE_VERIFICATION') }]] as HeadConfig[] : []),
   ...(getEnv('SHENMA_SITE_VERIFICATION') ? [['meta', { name: 'shenma-site-verification', content: getEnv('SHENMA_SITE_VERIFICATION') }]] as HeadConfig[] : []),
   ...(getEnv('SO_SITE_VERIFICATION') ? [['meta', { name: '360-site-verification', content: getEnv('SO_SITE_VERIFICATION') }]] as HeadConfig[] : []),
-  ...(getEnv('YANDEX_SITE_VERIFICATION') ? [['meta', { name: 'yandex-verification', content: getEnv('YANDEX_SITE_VERIFICATION') }]] as HeadConfig[] : [])
+  ['meta', { name: 'yandex-verification', content: getEnv('YANDEX_SITE_VERIFICATION') || '025da6550092b157' }]
 ];
 
 export default defineConfig({
