@@ -40,7 +40,7 @@
             <span>协议: {{ b.protocols.join(', ') }}</span>
           </div>
           <div class="res-action">
-            <a :href="`/brands/#${b.id}`" class="btn-outline btn-sm">查看品牌档案</a>
+            <a :href="`/brands/${b.id}/`" class="btn-outline btn-sm">查看品牌档案</a>
             <a :href="`/recommend/#r01`" class="btn-primary btn-sm">在推荐表中对比</a>
           </div>
         </div>

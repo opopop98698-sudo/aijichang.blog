@@ -95,156 +95,147 @@ const filteredClients = computed(() => {
 
 function getPlatformBadge(p: string) {
   switch (p) {
-    case 'windows': return { label: 'Win', class: 'bg-blue-50 text-blue-700 border-blue-200' };
-    case 'android': return { label: 'Android', class: 'bg-emerald-50 text-emerald-700 border-emerald-200' };
-    case 'ios': return { label: 'iOS', class: 'bg-purple-50 text-purple-700 border-purple-200' };
-    case 'macos': return { label: 'macOS', class: 'bg-slate-100 text-slate-800 border-slate-300' };
-    case 'linux': return { label: 'Linux', class: 'bg-amber-50 text-amber-800 border-amber-200' };
-    case 'router': return { label: '软路由', class: 'bg-rose-50 text-rose-700 border-rose-200' };
-    default: return { label: p, class: 'bg-gray-100 text-gray-700 border-gray-200' };
+    case 'windows': return { label: 'Win', class: 'badge-win' };
+    case 'android': return { label: 'Android', class: 'badge-android' };
+    case 'ios': return { label: 'iOS', class: 'badge-ios' };
+    case 'macos': return { label: 'macOS', class: 'badge-macos' };
+    case 'linux': return { label: 'Linux', class: 'badge-linux' };
+    case 'router': return { label: '软路由', class: 'badge-router' };
+    default: return { label: p, class: 'badge-default' };
   }
 }
 
 function getDownloadSourceLabel(type: string) {
   switch (type) {
-    case 'github': return 'GitHub 官方发布页';
+    case 'github': return 'GitHub 官方发布';
     case 'appstore': return 'Apple App Store';
-    case 'official': return '官方文档与下载';
-    default: return '官方下载渠道';
+    case 'official': return '官方站点与下载';
+    default: return '官方安全源';
   }
+}
+
+function resetAllFilters() {
+  selectedPlatform.value = 'all';
+  selectedCore.value = 'all';
+  selectedPricing.value = 'all';
+  selectedLevel.value = 'all';
+  searchQuery.value = '';
 }
 </script>
 
 <template>
-  <div class="client-matrix-container my-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all sm:p-6">
+  <div class="client-matrix-container">
     <!-- Header title -->
-    <div class="mb-5 flex flex-col justify-between gap-3 border-b border-gray-100 pb-4 sm:flex-row sm:items-center">
-      <div>
-        <h3 class="text-xl font-bold tracking-tight text-gray-900 m-0">
+    <div class="matrix-header">
+      <div class="header-titles">
+        <h3 class="header-title">
           ⚡ 2026 跨平台机场代理客户端交互检索中心
         </h3>
-        <p class="mt-1 text-sm text-gray-500 m-0">
-          收录 Windows、Android、iOS、macOS、Linux 与 OpenWrt 软路由 28 款主流开源及合规客户端，所有下载均直通官方权威发布源。
+        <p class="header-desc">
+          收录 Windows、Android、iOS、macOS、Linux 与 OpenWrt 软路由 28 款主流开源及合规客户端，所有下载直通官方安全发布源。
         </p>
       </div>
-      <div class="text-xs font-semibold px-2.5 py-1 bg-gray-100 text-gray-700 rounded-full w-fit">
-        共匹配到 <span class="text-blue-600 font-bold">{{ filteredClients.length }}</span> 款客户端
+      <div class="match-count-badge">
+        共匹配到 <strong class="highlight-count">{{ filteredClients.length }}</strong> 款客户端
       </div>
     </div>
 
     <!-- Filter Controls -->
-    <div class="space-y-3.5 mb-6">
+    <div class="matrix-filters">
       <!-- 1. Platform Tabs -->
-      <div class="flex flex-wrap gap-2 items-center">
-        <span class="text-xs font-semibold text-gray-400 mr-1">平台:</span>
-        <button
-          v-for="p in platforms"
-          :key="p.id"
-          @click="selectedPlatform = p.id"
-          :class="[
-            'px-3 py-1.5 text-xs font-medium rounded-lg transition-all border flex items-center gap-1.5 cursor-pointer',
-            selectedPlatform === p.id
-              ? 'bg-blue-600 text-white border-blue-600 shadow-sm'
-              : 'bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100'
-          ]"
-        >
-          <span>{{ p.icon }}</span>
-          <span>{{ p.label }}</span>
-        </button>
+      <div class="platform-tabs-row">
+        <span class="filter-label-txt">平台筛选:</span>
+        <div class="platform-tabs">
+          <button
+            v-for="p in platforms"
+            :key="p.id"
+            @click="selectedPlatform = p.id"
+            :class="['tab-btn', { active: selectedPlatform === p.id }]"
+          >
+            <span class="tab-icon">{{ p.icon }}</span>
+            <span>{{ p.label }}</span>
+          </button>
+        </div>
       </div>
 
       <!-- 2. Core & Pricing & Level Dropdowns + Search Input -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-1">
+      <div class="filter-dropdowns-grid">
         <!-- Core Select -->
-        <div>
-          <label class="block text-xs font-medium text-gray-500 mb-1">底层内核</label>
-          <select
-            v-model="selectedCore"
-            class="w-full text-xs rounded-lg border border-gray-200 bg-white px-2.5 py-2 text-gray-800 shadow-sm focus:border-blue-500 focus:outline-none"
-          >
+        <div class="filter-select-group">
+          <label class="dropdown-label">底层内核</label>
+          <select v-model="selectedCore" class="select-input">
             <option v-for="c in coreOptions" :key="c.id" :value="c.id">{{ c.label }}</option>
           </select>
         </div>
 
         <!-- Pricing Select -->
-        <div>
-          <label class="block text-xs font-medium text-gray-500 mb-1">资费授权</label>
-          <select
-            v-model="selectedPricing"
-            class="w-full text-xs rounded-lg border border-gray-200 bg-white px-2.5 py-2 text-gray-800 shadow-sm focus:border-blue-500 focus:outline-none"
-          >
+        <div class="filter-select-group">
+          <label class="dropdown-label">资费授权</label>
+          <select v-model="selectedPricing" class="select-input">
             <option v-for="pr in pricingOptions" :key="pr.id" :value="pr.id">{{ pr.label }}</option>
           </select>
         </div>
 
         <!-- Level Select -->
-        <div>
-          <label class="block text-xs font-medium text-gray-500 mb-1">操作难度</label>
-          <select
-            v-model="selectedLevel"
-            class="w-full text-xs rounded-lg border border-gray-200 bg-white px-2.5 py-2 text-gray-800 shadow-sm focus:border-blue-500 focus:outline-none"
-          >
+        <div class="filter-select-group">
+          <label class="dropdown-label">上手难度</label>
+          <select v-model="selectedLevel" class="select-input">
             <option v-for="lv in levelOptions" :key="lv.id" :value="lv.id">{{ lv.label }}</option>
           </select>
         </div>
 
         <!-- Live Search -->
-        <div>
-          <label class="block text-xs font-medium text-gray-500 mb-1">快速检索</label>
+        <div class="filter-select-group">
+          <label class="dropdown-label">快速检索</label>
           <input
             v-model="searchQuery"
             type="text"
             placeholder="搜索客户端名、内核、协议..."
-            class="w-full text-xs rounded-lg border border-gray-200 bg-white px-2.5 py-2 text-gray-800 shadow-sm focus:border-blue-500 focus:outline-none"
+            class="text-input"
           />
         </div>
       </div>
     </div>
 
     <!-- Empty State -->
-    <div v-if="filteredClients.length === 0" class="py-12 text-center border rounded-xl border-dashed border-gray-200 bg-gray-50">
-      <div class="text-3xl mb-2">🔍</div>
-      <p class="text-sm font-medium text-gray-600 m-0">未找到符合当前组合条件的代理客户端</p>
-      <button
-        @click="selectedPlatform = 'all'; selectedCore = 'all'; selectedPricing = 'all'; selectedLevel = 'all'; searchQuery = '';"
-        class="mt-3 inline-flex items-center text-xs font-semibold text-blue-600 hover:text-blue-700 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 cursor-pointer"
-      >
+    <div v-if="filteredClients.length === 0" class="empty-matrix-state">
+      <div class="empty-icon">🔍</div>
+      <p class="empty-text">未找到符合当前组合条件的代理客户端</p>
+      <button @click="resetAllFilters" class="btn-reset">
         重置所有筛选条件
       </button>
     </div>
 
     <!-- Cards Grid -->
-    <div v-else class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div v-else class="client-grid">
       <div
         v-for="item in filteredClients"
         :key="item.id"
-        class="flex flex-col justify-between rounded-xl border border-gray-200/90 bg-white p-4.5 shadow-sm transition hover:shadow-md hover:border-blue-200"
+        class="client-card"
       >
-        <div>
+        <div class="client-card-body">
           <!-- Header: Name + Pricing Badge -->
-          <div class="flex items-start justify-between gap-2">
-            <div>
-              <h4 class="text-base font-bold text-gray-900 m-0 flex items-center gap-2">
+          <div class="client-header">
+            <div class="name-box">
+              <h4 class="client-name">
                 {{ item.name }}
                 <span
                   v-if="item.status === 'maintenance_warning'"
-                  class="text-[10px] font-semibold px-2 py-0.5 rounded bg-amber-100 text-amber-800 border border-amber-300"
+                  class="maintenance-badge"
                 >
                   维护预警
                 </span>
               </h4>
-              <p class="text-xs text-gray-500 mt-1 mb-2">
-                核心: <span class="font-medium text-gray-700">{{ item.core }}</span>
-                <span class="mx-1.5 text-gray-300">|</span>
-                上手: <span class="text-gray-600">{{ item.levelNote }}</span>
+              <p class="client-meta">
+                核心: <span class="meta-val">{{ item.core }}</span>
+                <span class="meta-sep">|</span>
+                上手: <span class="meta-val">{{ item.levelNote }}</span>
               </p>
             </div>
             <span
               :class="[
-                'text-[11px] font-semibold px-2 py-0.5 rounded border whitespace-nowrap',
-                item.pricing === 'free'
-                  ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
-                  : 'bg-purple-50 text-purple-700 border-purple-200'
+                'pricing-badge',
+                item.pricing === 'free' ? 'pricing-free' : 'pricing-paid'
               ]"
             >
               {{ item.pricingNote }}
@@ -252,54 +243,51 @@ function getDownloadSourceLabel(type: string) {
           </div>
 
           <!-- Platform Badges -->
-          <div class="flex flex-wrap gap-1.5 mb-2.5">
+          <div class="platforms-row">
             <span
               v-for="p in item.platforms"
               :key="p"
-              :class="['text-[10px] font-medium px-1.5 py-0.5 rounded border', getPlatformBadge(p).class]"
+              :class="['plat-badge', getPlatformBadge(p).class]"
             >
               {{ getPlatformBadge(p).label }}
             </span>
           </div>
 
           <!-- Summary -->
-          <p class="text-xs text-gray-600 line-clamp-2 leading-relaxed m-0 mb-3">
+          <p class="client-summary">
             {{ item.summary }}
           </p>
 
           <!-- Feature Tags -->
-          <div class="flex flex-wrap gap-1 mb-3">
+          <div class="features-row">
             <span
               v-for="f in item.features"
               :key="f"
-              class="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600 font-normal"
+              class="feature-tag"
             >
               ✓ {{ f }}
             </span>
           </div>
 
           <!-- Safety Warning Banner -->
-          <div
-            v-if="item.warning"
-            class="text-[11px] leading-relaxed p-2.5 rounded-lg border border-amber-300 bg-amber-50/90 text-amber-900 mb-3"
-          >
+          <div v-if="item.warning" class="client-warning-box">
             ⚠️ {{ item.warning }}
           </div>
         </div>
 
         <!-- Footer: Official Direct Link -->
-        <div class="pt-3 border-t border-gray-100 flex items-center justify-between">
-          <span class="text-[11px] text-gray-400">
+        <div class="client-footer">
+          <span class="source-label">
             渠道: {{ getDownloadSourceLabel(item.downloadType) }}
           </span>
           <a
             :href="item.downloadUrl"
             target="_blank"
             rel="nofollow noopener noreferrer"
-            class="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:text-blue-800 bg-blue-50/80 hover:bg-blue-100 px-3 py-1.5 rounded-lg transition"
+            class="download-btn"
           >
             <span>访问官方项目/下载</span>
-            <span>↗</span>
+            <span class="arrow-icon">↗</span>
           </a>
         </div>
       </div>
@@ -309,6 +297,405 @@ function getDownloadSourceLabel(type: string) {
 
 <style scoped>
 .client-matrix-container {
-  font-family: inherit;
+  margin: 2rem 0;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  background-color: var(--vp-c-bg);
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* Header */
+.matrix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid var(--vp-c-border);
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.header-titles {
+  flex: 1;
+  min-width: 260px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+}
+
+.header-desc {
+  margin: 0.35rem 0 0;
+  font-size: 0.86rem;
+  color: var(--vp-c-text-3);
+  line-height: 1.5;
+}
+
+.match-count-badge {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-text-2);
+  border-radius: 20px;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+.highlight-count {
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+/* Filters */
+.matrix-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.platform-tabs-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.filter-label-txt {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+}
+
+.platform-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-border);
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.tab-btn.active {
+  background-color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.tab-icon {
+  font-size: 0.9rem;
+}
+
+.filter-dropdowns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.filter-select-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dropdown-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--vp-c-text-3);
+}
+
+.select-input, .text-input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 0.82rem;
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-border);
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.select-input:focus, .text-input:focus {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* Empty State */
+.empty-matrix-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  border: 1px dashed var(--vp-c-border);
+  border-radius: 10px;
+  background-color: var(--vp-c-bg-soft);
+}
+
+.empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.empty-text {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-3);
+  margin: 0 0 1rem;
+}
+
+.btn-reset {
+  display: inline-flex;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-brand-soft);
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-reset:hover {
+  background-color: #dbeafe;
+}
+
+/* Client Cards Grid */
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.client-card {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 10px;
+  background-color: var(--vp-c-bg);
+  padding: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.client-card:hover {
+  border-color: var(--vp-c-brand-3);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.08);
+  transform: translateY(-1px);
+}
+
+.client-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.client-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 0.65rem;
+}
+
+.name-box {
+  flex: 1;
+  min-width: 0;
+}
+
+.client-name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.maintenance-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.client-meta {
+  margin: 3px 0 0;
+  font-size: 0.76rem;
+  color: var(--vp-c-text-3);
+}
+
+.meta-val {
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+}
+
+.meta-sep {
+  margin: 0 5px;
+  color: var(--vp-c-border);
+}
+
+.pricing-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pricing-free {
+  background-color: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+
+.pricing-paid {
+  background-color: #faf5ff;
+  color: #7e22ce;
+  border: 1px solid #e9d5ff;
+}
+
+.platforms-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 0.65rem;
+}
+
+.plat-badge {
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 1px 5px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.badge-win { background-color: #eff6ff; color: #1d4ed8; border-color: #dbeafe; }
+.badge-android { background-color: #ecfdf5; color: #047857; border-color: #a7f3d0; }
+.badge-ios { background-color: #faf5ff; color: #6b21a8; border-color: #f3e8ff; }
+.badge-macos { background-color: #f1f5f9; color: #334155; border-color: #e2e8f0; }
+.badge-linux { background-color: #fffbeb; color: #92400e; border-color: #fde68a; }
+.badge-router { background-color: #fff1f2; color: #be123c; border-color: #fecdd3; }
+.badge-default { background-color: #f1f5f9; color: #475569; border-color: #e2e8f0; }
+
+.client-summary {
+  margin: 0 0 0.75rem;
+  font-size: 0.82rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 2.45rem;
+}
+
+.features-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.feature-tag {
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  border: 1px solid var(--vp-c-border);
+}
+
+.client-warning-box {
+  font-size: 0.74rem;
+  line-height: 1.45;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #fde68a;
+  background-color: #fffbeb;
+  color: #92400e;
+  margin-bottom: 0.75rem;
+}
+
+.client-footer {
+  border-top: 1px solid var(--vp-c-border);
+  padding-top: 0.75rem;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.source-label {
+  font-size: 0.74rem;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-brand-soft);
+  border: 1px solid #bfdbfe;
+  border-radius: 5px;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.download-btn:hover {
+  background-color: #dbeafe;
+  border-color: var(--vp-c-brand-1);
+}
+
+.arrow-icon {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .client-matrix-container {
+    padding: 1rem;
+  }
+  .client-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

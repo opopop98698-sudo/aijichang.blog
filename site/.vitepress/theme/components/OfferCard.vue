@@ -184,6 +184,8 @@ const copyCode = (code: string) => {
 .spec-row .label {
   color: var(--vp-c-text-3);
   width: 90px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .spec-row .val {
@@ -206,5 +208,6 @@ const copyCode = (code: string) => {
 .btn-sm {
   padding: 6px 14px;
   font-size: 0.82rem;
+  white-space: nowrap;
 }
 </style>

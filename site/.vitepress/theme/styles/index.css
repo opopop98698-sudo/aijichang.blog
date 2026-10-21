@@ -169,6 +169,7 @@ p {
   transition: all 0.2s ease;
   border: none;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .btn-primary:hover {
@@ -189,6 +190,14 @@ p {
   text-decoration: none !important;
   transition: all 0.2s ease;
   cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.82rem;
+  border-radius: 6px;
+  white-space: nowrap;
 }
 
 .btn-outline:hover {

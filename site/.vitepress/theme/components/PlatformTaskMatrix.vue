@@ -190,6 +190,13 @@ const filteredObservations = computed(() => {
   color: var(--vp-c-text-1);
 }
 
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1rem;
+}
+
 .matrix-table {
   width: 100%;
   border-collapse: collapse;
